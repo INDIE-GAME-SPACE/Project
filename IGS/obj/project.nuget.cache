@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yve9BfM/eDTOSG3nhovU7Oz0oRH2uGN6OxhWcbmvfW30bPDlNTe6nnjHiWa8L7gIOAqF7L3S3wNFTaLLrrWOJQ==",
+  "dgSpecHash": "6ZqOsCkVkmEQXVBmhHySx5Mnn88pmvGn4Ex/pSRagEQJeb+gHQlSA/ZhCdLaakzPeHPMhY3ixNTZ05+xmZn5+Q==",
   "success": true,
-  "projectFilePath": "D:\\Проекты C#\\Indie Game Space\\IGS\\IGS.csproj",
+  "projectFilePath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

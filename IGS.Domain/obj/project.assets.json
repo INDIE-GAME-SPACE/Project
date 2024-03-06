@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
-      "projectName": "IGS",
-      "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
+      "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj",
+      "projectName": "IGS.Domain",
+      "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj",
       "packagesPath": "C:\\Users\\happy\\.nuget\\packages\\",
-      "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\obj\\",
+      "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\happy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,9 +57,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
