@@ -1,4 +1,7 @@
-﻿﻿@{
+﻿@model IGS.Domain.Entity.User
+﻿
+@{
+    Layout = "_Layout";
     ViewData["Title"] = "Главная";
 }
 
@@ -8,23 +11,11 @@
       <div class="card col-md-12">
       <div class="card-body">
         <h5 class="card-title text-center">Добро пожаловать на сайт IGS</h5>
+            <h5 class="card-title text-center">@User.Identity.Name</h5>
         <p class="card-text">
 
         </p>
-        <p class="card-text"><small class="text-muted">User.Identity</small></p>
+            <P></P>
       </div>
     </div>
-}
-else
-{
-      <div class="card">
-        <div class="card-header">
-          Вы не авторизовались
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>Для просмотра контента вы должны авторизоваться</p>
-          </blockquote>
-        </div>
-      </div>
 }

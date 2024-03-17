@@ -9,8 +9,20 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\img\\logo.jpg"
+    },
+    {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\фон.jpg",
+      "PackagePath": "staticwebassets\\img\\фон.jpg"
     },
     {
       "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\js\\site.js",
