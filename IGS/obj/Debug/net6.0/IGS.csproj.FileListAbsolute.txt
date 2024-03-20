@@ -70,3 +70,6 @@ D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Domain.dl
 D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Domain.pdb
 D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Service.dll
 D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Service.pdb
+C:\Users\User1\Desktop\IGS\Project\IGS\obj\Debug\net6.0\IGS.dll
+C:\Users\User1\Desktop\IGS\Project\IGS\obj\Debug\net6.0\refint\IGS.dll
+C:\Users\User1\Desktop\IGS\Project\IGS\obj\Debug\net6.0\IGS.pdb

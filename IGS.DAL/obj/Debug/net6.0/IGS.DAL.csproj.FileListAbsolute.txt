@@ -13,3 +13,6 @@ D:\Проекты C#\Indie Game Space\Project\IGS.DAL\obj\Debug\net6.0\ref\IGS.D
 D:\Проекты C#\Indie Game Space\Project\IGS.DAL\bin\Debug\net6.0\IGS.Domain.dll
 D:\Проекты C#\Indie Game Space\Project\IGS.DAL\bin\Debug\net6.0\IGS.Domain.pdb
 D:\Проекты C#\Indie Game Space\Project\IGS.DAL\obj\Debug\net6.0\IGS.DAL.csproj.CopyComplete
+C:\Users\User1\Desktop\IGS\Project\IGS.DAL\obj\Debug\net6.0\IGS.DAL.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.DAL\obj\Debug\net6.0\refint\IGS.DAL.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.DAL\obj\Debug\net6.0\IGS.DAL.pdb
