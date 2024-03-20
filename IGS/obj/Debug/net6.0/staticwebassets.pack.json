@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\js\\three.js",
+      "PackagePath": "staticwebassets\\js\\three.js"
+    },
+    {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\lib\\Three.js",
+      "PackagePath": "staticwebassets\\lib\\Three.js"
+    },
+    {
       "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -255,6 +263,10 @@
     {
       "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\lib\\three.cjs",
+      "PackagePath": "staticwebassets\\lib\\three.cjs"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.IGS.Microsoft.AspNetCore.StaticWebAssets.props",

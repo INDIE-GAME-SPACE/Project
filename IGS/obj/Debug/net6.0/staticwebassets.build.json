@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dw5nmwIpjjnZ6Tpn8mgJGPcOwHjWTYvpGFBd1eYHSTs=",
+  "Hash": "QuPu7nnZ0aHG1M0NNbaPdV7O1anbZ+72YSx1bb0AAeM=",
   "Source": "IGS",
   "BasePath": "_content/IGS",
   "Mode": "Default",
@@ -151,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\js\\three.js",
+      "SourceId": "IGS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\",
+      "BasePath": "_content/IGS",
+      "RelativePath": "js/three.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\three.js"
     },
     {
       "Identity": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1120,6 +1137,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\lib\\three.cjs",
+      "SourceId": "IGS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\",
+      "BasePath": "_content/IGS",
+      "RelativePath": "lib/three.cjs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\three.cjs"
+    },
+    {
+      "Identity": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\lib\\Three.js",
+      "SourceId": "IGS",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\",
+      "BasePath": "_content/IGS",
+      "RelativePath": "lib/Three.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Three.js"
     }
   ]
 }

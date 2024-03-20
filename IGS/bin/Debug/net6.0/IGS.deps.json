@@ -9,7 +9,9 @@
       "IGS/1.0.0": {
         "dependencies": {
           "IGS.DAL": "1.0.0",
+          "IGS.Domain": "1.0.0",
           "IGS.Service": "1.0.0",
+          "IGS.WEB": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.27"
         },
         "runtime": {
@@ -442,6 +444,11 @@
         "runtime": {
           "IGS.Service.dll": {}
         }
+      },
+      "IGS.WEB/1.0.0": {
+        "runtime": {
+          "IGS.WEB.dll": {}
+        }
       }
     }
   },
@@ -742,6 +749,11 @@
       "sha512": ""
     },
     "IGS.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IGS.WEB/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
