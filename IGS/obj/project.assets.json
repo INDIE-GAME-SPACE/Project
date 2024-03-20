@@ -775,6 +775,16 @@
         "runtime": {
           "bin/placeholder/IGS.Service.dll": {}
         }
+      },
+      "IGS.WEB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/IGS.WEB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IGS.WEB.dll": {}
+        }
       }
     }
   },
@@ -1955,12 +1965,19 @@
       "type": "project",
       "path": "../IGS.Service/IGS.Service.csproj",
       "msbuildProject": "../IGS.Service/IGS.Service.csproj"
+    },
+    "IGS.WEB/1.0.0": {
+      "type": "project",
+      "path": "../IGS.WEB/IGS.WEB.csproj",
+      "msbuildProject": "../IGS.WEB/IGS.WEB.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "IGS.DAL >= 1.0.0",
+      "IGS.Domain >= 1.0.0",
       "IGS.Service >= 1.0.0",
+      "IGS.WEB >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.27"
     ]
   },
@@ -1994,8 +2011,14 @@
             "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj": {
               "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj"
             },
+            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
+              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj"
+            },
             "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {
               "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj"
+            },
+            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
+              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj"
             }
           }
         }

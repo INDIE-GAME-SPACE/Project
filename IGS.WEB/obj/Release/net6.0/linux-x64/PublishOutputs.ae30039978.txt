@@ -1,0 +1,3 @@
+D:\Проекты C#\Indie Game Space\Project\IGS\publish\IGS.WEB.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\publish\IGS.WEB.deps.json
+D:\Проекты C#\Indie Game Space\Project\IGS\publish\IGS.WEB.pdb

@@ -70,3 +70,13 @@ D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Domain.dl
 D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Domain.pdb
 D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Service.dll
 D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.Service.pdb
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.WEB.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.WEB.pdb
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\appsettings.Development.json
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\appsettings.json
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\IGS.DAL.deps.json
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\IGS.deps.json
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\IGS.Domain.deps.json
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\IGS.runtimeconfig.json
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\IGS.Service.deps.json
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\publish\IGS.WEB.deps.json

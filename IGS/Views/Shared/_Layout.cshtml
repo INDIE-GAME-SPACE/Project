@@ -20,12 +20,18 @@
 		</form>
 			@if (!User.Identity.IsAuthenticated)
 			{
-				<a asp-controller="Account" asp-action="Login" style="color:white; font-family:Impact; font-size:30px;">Вход</a>
+				<a asp-controller="Account" asp-action="Login" class = "logIn">Вход</a>
+				<p>Privet</p>
 			}
 			@if (User.Identity.IsAuthenticated)
 			{
-				<a style="color:white; font-family:Impact; font-size:30px;">@User.Identity.Name</a>
-				<a asp-controller="Account" asp-action="Logout" style="color:white; font-family:Impact; font-size:30px;">Выход</a>
+				<div class="dropdown">
+					<button class="dropbtn">@User.Identity.Name</button>
+						<div class="dropdown-content">
+							<a>Профиль</a>
+							<a asp-controller="Account" asp-action="Logout">Выход</a>
+						</div>
+				</div>
 			}
 </nav>
 </header>

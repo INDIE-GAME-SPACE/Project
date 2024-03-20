@@ -7,9 +7,18 @@ namespace IGS.Controllers
     public class HomeController : Controller
     {
 
-		public IActionResult Index() => View();
+        public IActionResult Index()
+        {
+            Cube cube = new Cube
+            {
+                x = 1,
+                y = 1,
+                z = 1
+            };
 
-        public IActionResult Privacy() => View();
+            ViewBag.Message = cube;
+            return View();
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
