@@ -6,6 +6,8 @@ using IGS.Domain.ViewModels.Account;
 using Microsoft.AspNetCore.Authentication;
 using Status = IGS.Domain.Enums.StatusCode;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using DNTCaptcha.Core;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace IGS.Controllers
 {
@@ -19,6 +21,7 @@ namespace IGS.Controllers
         public IActionResult Register() => View();
 
         [HttpPost]
+        [ValidateDNTCaptcha(ErrorMessage = "Please enter security code!")]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if(ModelState.IsValid)
@@ -29,10 +32,14 @@ namespace IGS.Controllers
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(response.Data));
                     return RedirectToAction("Index", "Home");
                 }
-                ModelState.AddModelError("", response.Description);
+                if(response.StatusCode == Status.CodeConfirmation)
+                {
+					return View(model);
+                }
             }
             return View(model);
         }
+
 
         [HttpGet]
         public IActionResult Login() => View();
@@ -48,7 +55,6 @@ namespace IGS.Controllers
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(response.Data));
                     return RedirectToAction("Index", "Home");
                 }
-                ModelState.AddModelError("", response.Description);
             }
             return View(model);
         }

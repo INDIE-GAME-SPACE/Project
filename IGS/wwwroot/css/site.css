@@ -47,9 +47,135 @@ header {
     background-color: RGB( 17, 18, 17);
 }
 
+.borderRegister {
+    display:flex;
+    position:relative;
+    background-color:white;
+    width: 500px;
+    height: 800px;
+    justify-content: flex-start;
+    align-items: normal;
+    padding: 10px;
+    border: 5px groove black;
+}
+
+.registerPage {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.borders {
+    display: inline-flex;
+    justify-content: start;
+    align-items: normal;
+    width: 1100px;
+}
+
+.check {
+    display: flex;
+    margin-inline-start: -38%;
+    padding: 4px;
+}
+    .check i {
+        margin-inline-start: -26%;
+    }
+
+    .borderRegister-title {
+        display: block;
+        background-color: white;
+        width: 1100px;
+        height: 100px;
+        justify-content: center;
+        border: 5px groove black;
+    }
+
+.registerButton {
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    right: 5%;
+    margin-bottom: 5%;
+    font-family: 'Times New Roman';
+    color: white;
+    background-color: blueviolet;
+    border: 0px solid white;
+}
+
+.borderRegister-info {
+    display: block;
+    background-color: white;
+    width: 600px;
+    height: 800px;
+    align-items: normal;
+    border: 5px groove black;
+}
+
+.borderRegister-info h1 {
+    font-size: 26px;
+    font-weight :bold;
+    font-family: 'Comic Sans MS';
+    text-align: center;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+    .borderRegister-info p {
+        display : block;
+        margin-block-end:4%;
+        margin-inline-start:3%;
+        font-size: 20px;
+        font-family:Marlett;
+    }
+
+.inputBar {
+    color: black;
+    width: 400px;
+    text-align: left;
+    margin-top: 0%
+}
+
+
+.title-header {
+    color: black;
+    font-family:'Comic Sans MS';
+    text-align: center;
+    font-size: 50px;
+}
+
+.captcha{
+    display:flex;
+    margin-top: 4%;
+}
+
+.captchaReload {
+    color: blue;
+    width:500px;
+    border:10px groove blue;
+}
+
+.captchaBox{
+    width : 173px;
+    display:flex;
+
+}
+
+.inputBar-header {
+    color: black;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    margin-top: 5%
+}
+
+
+.aboutYouBorder {
+    margin-top: 5%;
+}
 
 .logIn {
-    color: white;
+    color:white;
     font-family: Impact;
     font-size: 30px;
 }

@@ -9,3 +9,4 @@ D:\Проекты C#\Indie Game Space\Project\IGS.Domain\obj\Debug\net6.0\IGS.Do
 D:\Проекты C#\Indie Game Space\Project\IGS.Domain\obj\Debug\net6.0\refint\IGS.Domain.dll
 D:\Проекты C#\Indie Game Space\Project\IGS.Domain\obj\Debug\net6.0\IGS.Domain.pdb
 D:\Проекты C#\Indie Game Space\Project\IGS.Domain\obj\Debug\net6.0\ref\IGS.Domain.dll
+D:\Проекты C#\Indie Game Space\Project\IGS.Domain\obj\Debug\net6.0\IGS.Domain.csproj.AssemblyReference.cache

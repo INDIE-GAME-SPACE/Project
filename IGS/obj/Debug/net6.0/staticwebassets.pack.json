@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\IGS.bundle.scp.css"
     },
     {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\rigester.css",
+      "PackagePath": "staticwebassets\\css\\rigester.css"
+    },
+    {
       "Id": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

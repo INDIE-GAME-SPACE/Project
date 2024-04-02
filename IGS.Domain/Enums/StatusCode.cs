@@ -8,6 +8,7 @@
         AddElementError = 3,
         InternalServerError = 4,
         FoundElementError = 5,
-        NotFoundException = 404
+        NotFoundException = 404,
+        CodeConfirmation = 100,
     }
 }

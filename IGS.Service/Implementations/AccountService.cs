@@ -5,7 +5,11 @@ using IGS.Domain.Extensions;
 using System.Security.Claims;
 using IGS.Domain.ViewModels.Account;
 using StatusCode = IGS.Domain.Enums.StatusCode;
-using System.Net.Http.Headers;
+using MimeKit;
+using Org.BouncyCastle.Asn1.Ocsp;
+using System;
+using System.Net.Http;
+using Microsoft.AspNetCore.Http;
 
 namespace IGS.Service.Implementations
 {
@@ -29,10 +33,57 @@ namespace IGS.Service.Implementations
                     };
                 }
 
+                user = await _userRepository.GetByEmail(model.EmailAdress);
+
+                if (user != null)
+                {
+                    return new BaseResponse<ClaimsIdentity>()
+                    {
+                        Description = "Пользователь с такой почтой уже найден",
+                        StatusCode = StatusCode.AddElementError,
+                    };
+                }
+
+                int code = RandomGenerator.GenerateCodeAuthenticator();
+
+                try
+                {
+                    MimeMessage message = new MimeMessage();
+                    message.From.Add(new MailboxAddress("IndieGameSpace", "andrey.3remeev@yandex.ru"));
+                    message.To.Add(new MailboxAddress(" ", model.EmailAdress));
+                    message.Subject = "Подтверждение регистрации";
+                    message.Body = new BodyBuilder()
+                    {
+                        HtmlBody = "<div style=\"color: black; font-size : 20px; \">Ссылка для подтверждения регистрации</div>"
+                        + "<div style=\"color: blue; font-size : 20px; \"><u>Подтвердить почту</u></div>",
+
+                    }.ToMessageBody();
+
+                    using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
+                    {
+                        client.Connect("smtp.yandex.ru", 465, true);
+                        client.Authenticate("andrey.3remeev@yandex.ru", "OKiPEm8dQc8cIlCCRr0ZTaEg7OFyJEXh9Idrccq5MywXeqA48HTqthsCPlwVFBZA#");
+                        client.Send(message);
+                        client.Disconnect(true);
+                    }
+                }
+                catch (Exception ex) { }
+
+                Role role = default;
+                if (model.IUser && model.ICreator)
+                    role = Role.All;
+                if(model.IUser)
+                    role = Role.Gamer;
+                if (model.ICreator)
+                    role = Role.Creator;
+
                 user = new User()
                 {
                     Login = model.Login,
                     Password = HashHelper.HashPassword(model.Password),
+                    Email = model.EmailAdress,
+                    AuthenticationPassed = 0,
+                    Role = role.ToString(),
                 };
 
                 await _userRepository.Create(user);
@@ -55,18 +106,25 @@ namespace IGS.Service.Implementations
             }
         }
 
+
+
         public async Task<BaseResponse<ClaimsIdentity>> Login(LoginViewModel model)
         {
             try
             {
                 User user = await _userRepository.GetByLogin(model.Login);
+                
                 if (user == null)
                 {
-                    return new BaseResponse<ClaimsIdentity>()
+                    user = await _userRepository.GetByEmail(model.Login);
+                    if (user == null)
                     {
-                        Description = "Пользователь не найден",
-                        StatusCode = StatusCode.FoundElementError,
-                    };
+                        return new BaseResponse<ClaimsIdentity>()
+                        {
+                            Description = "Пользователь не найден",
+                            StatusCode = StatusCode.FoundElementError,
+                        };
+                    }    
                 }
 
                 if(user.Password != HashHelper.HashPassword(model.Password))

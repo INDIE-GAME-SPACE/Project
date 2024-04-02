@@ -1,3 +1,4 @@
+using DNTCaptcha.Core;
 using IGS;
 using IGS.DAL;
 using IGS.DAL.Interfaces;
@@ -22,6 +23,14 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 builder.Services.InitializeRepositories();
 builder.Services.InitializeServices();
+
+builder.Services.AddRazorPages();
+
+builder.Services.AddDNTCaptcha(option => 
+{
+    option.UseCookieStorageProvider().ShowThousandsSeparators(false);
+    option.WithEncryptionKey("asdasdasdasdasd");
+});
 
 var app = builder.Build();
 

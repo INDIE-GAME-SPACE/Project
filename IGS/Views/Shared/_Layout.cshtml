@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> 
 <link rel="stylesheet" href="~/IGS.styles.css" asp-append-version="true" />
 <link rel="stylesheet" href="~/IGS.style.css" asp-append-version="true" />
-
+<link rel="stylesheet" href="~/css/register.css" asp-append-version="true" /> 
 
 </head>
 <body>
@@ -21,7 +21,6 @@
 			@if (!User.Identity.IsAuthenticated)
 			{
 				<a asp-controller="Account" asp-action="Login" class = "logIn">Вход</a>
-				<p>Privet</p>
 			}
 			@if (User.Identity.IsAuthenticated)
 			{
