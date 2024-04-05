@@ -15,3 +15,21 @@ D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.S
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\refint\IGS.Service.dll
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.pdb
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\ref\IGS.Service.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\bin\Debug\net6.0\IGS.Service.deps.json
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\bin\Debug\net6.0\IGS.Service.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\bin\Debug\net6.0\IGS.Service.pdb
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\bin\Debug\net6.0\IGS.DAL.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\bin\Debug\net6.0\IGS.Domain.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\bin\Debug\net6.0\IGS.DAL.pdb
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\bin\Debug\net6.0\IGS.Domain.pdb
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.csproj.AssemblyReference.cache
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.AssemblyInfo.cs
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.sourcelink.json
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.csproj.CopyComplete
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\refint\IGS.Service.dll
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.pdb
+C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\ref\IGS.Service.dll

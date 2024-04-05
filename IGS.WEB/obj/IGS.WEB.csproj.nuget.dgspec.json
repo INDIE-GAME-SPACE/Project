@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {}
+    "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj": {}
   },
   "projects": {
-    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
+    "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
+        "projectUniqueName": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj",
         "projectName": "IGS.WEB",
-        "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
-        "packagesPath": "C:\\Users\\happy\\.nuget\\packages\\",
-        "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\obj\\",
+        "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj",
+        "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\happy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

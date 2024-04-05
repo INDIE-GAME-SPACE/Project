@@ -16,11 +16,13 @@
 	<nav>
 		<a asp-controller="Home" asp-action="Index"><span style="color:white; font-family:Impact; font-size:30px;">IGS</span></a>
 		<form>
+		 
 		  <input type="text" value="Search"><br>
 		</form>
 			@if (!User.Identity.IsAuthenticated)
 			{
-				<a asp-controller="Account" asp-action="Login" class = "logIn">Вход</a>
+				<a asp-controller="Account" asp-action="Login"  class = "logIn">Вход</a>
+				
 			}
 			@if (User.Identity.IsAuthenticated)
 			{

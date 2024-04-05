@@ -238,3 +238,11 @@ header {
     border:groove;
 }
 
+/* Изображение аватарки, в футере
+.image {
+    width: 300px;
+    height: 200px;
+    background-image: url('c:\users\user1\desktop\igs\project\igs\views\shared\avatar.jpg');
+    background-size: cover;
+}
+*/

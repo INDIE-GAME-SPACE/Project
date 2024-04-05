@@ -25,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\img\find.icon.ico" />
     <None Include="wwwroot\lib\three.cjs" />
     <None Include="wwwroot\lib\Three.js" />
     <None Include="wwwroot\scripts\main.js" />
