@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "p+KV2tzJNk8X4V8IL1XdyGBZQDHfTK7lmaPXZ8Xlkjo=",
+=======
+  "Hash": "f4gMbNN9hfS88a88zPLxqakf2in7YRJYBWTPII7yyJI=",
+>>>>>>> Stashed changes
   "Source": "IGS",
   "BasePath": "_content/IGS",
   "Mode": "Default",
@@ -55,6 +59,7 @@
       "OriginalItemSpec": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\IGS.bundle.scp.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\css\\rigester.css",
       "SourceId": "IGS",
       "SourceType": "Discovered",
@@ -78,6 +83,12 @@
       "SourceId": "IGS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\css\\site.css",
+      "SourceId": "IGS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IGS",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -112,6 +123,7 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\css\\StyleSheet.css",
       "SourceId": "IGS",
       "SourceType": "Discovered",
@@ -135,6 +147,12 @@
       "SourceId": "IGS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\favicon.ico",
+      "SourceId": "IGS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IGS",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -150,6 +168,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\img\\find.icon.ico",
       "SourceId": "IGS",
       "SourceType": "Discovered",
@@ -173,6 +192,12 @@
       "SourceId": "IGS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\img\\logo.jpg",
+      "SourceId": "IGS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/IGS",
       "RelativePath": "img/logo.jpg",
       "AssetKind": "All",

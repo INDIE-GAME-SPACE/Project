@@ -5,6 +5,7 @@
       "PackagePath": "staticwebassets\\IGS.bundle.scp.css"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\css\\StyleSheet.css",
       "PackagePath": "staticwebassets\\css\\StyleSheet.css"
     },
@@ -13,6 +14,8 @@
       "PackagePath": "staticwebassets\\css\\rigester.css"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -25,10 +28,13 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+<<<<<<< Updated upstream
       "Id": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\img\\find.icon.ico",
       "PackagePath": "staticwebassets\\img\\find.icon.ico"
     },
     {
+=======
+>>>>>>> Stashed changes
       "Id": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\wwwroot\\img\\logo.jpg",
       "PackagePath": "staticwebassets\\img\\logo.jpg"
     },

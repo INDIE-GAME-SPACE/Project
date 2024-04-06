@@ -22,7 +22,11 @@
 		</form>
 			@if (!User.Identity.IsAuthenticated)
 			{
+<<<<<<< Updated upstream
 				<a asp-controller="Account" asp-action="Login"  class = "logIn">Вход</a>
+=======
+				<a asp-controller="Account" asp-action="Login" class = "logIn">Вход</a>
+>>>>>>> Stashed changes
 				
 			}
 			@if (User.Identity.IsAuthenticated)
