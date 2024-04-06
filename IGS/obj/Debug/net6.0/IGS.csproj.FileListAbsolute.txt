@@ -190,3 +190,26 @@ C:\Users\User1\Desktop\IGS\Project\IGS\obj\Debug\net6.0\scopedcss\projectbundle\
 C:\Users\User1\Desktop\IGS\Project\IGS\obj\Debug\net6.0\IGS.csproj.CopyComplete
 C:\Users\User1\Desktop\IGS\Project\IGS\obj\Debug\net6.0\IGS.genruntimeconfig.cache
 C:\Users\User1\Desktop\IGS\Project\IGS\obj\Debug\net6.0\ref\IGS.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\DNTCaptcha.Core.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\HarfBuzzSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\MailKit.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\MimeKit.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\SkiaSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\SkiaSharp.HarfBuzz.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\System.Text.Encoding.CodePages.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Text.Encoding.CodePages.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.WEB.dll
+D:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\IGS.WEB.pdb
+D:\Проекты C#\Indie Game Space\Project\IGS\obj\Debug\net6.0\IGS.MvcApplicationPartsAssemblyInfo.cs

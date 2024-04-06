@@ -14,9 +14,13 @@ html {
 }
 
 .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     background-color: black;
     width: 500px;
-    height: 150px;
+    height: 170px;
 }
 
 .footer_link {
@@ -33,8 +37,8 @@ html {
     text-align: right;
     margin-right: 20px;
 }
-}
-body {
+
+body{
     margin-bottom: 60px;
     background-color: RGB( 17, 18, 17);
 }
@@ -51,7 +55,7 @@ a {
     color: green;
 }
 
-nav {
+.header_nav {
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -66,7 +70,7 @@ nav {
 }
 
 header {
-    background-color:black;
+    background-color:white;
 }
 
 .borderRegister {
