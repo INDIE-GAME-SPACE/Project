@@ -2788,19 +2788,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\happy\\.nuget\\packages\\": {}
+    "C:\\Users\\User1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
+      "projectUniqueName": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\IGS.csproj",
       "projectName": "IGS",
-      "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
-      "packagesPath": "C:\\Users\\happy\\.nuget\\packages\\",
-      "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\obj\\",
+      "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\IGS.csproj",
+      "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\happy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2814,17 +2814,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj": {
-              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj"
+            "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.DAL\\IGS.DAL.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.DAL\\IGS.DAL.csproj"
             },
-            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
-              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj"
+            "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.Domain\\IGS.Domain.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.Domain\\IGS.Domain.csproj"
             },
-            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {
-              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj"
+            "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.Service\\IGS.Service.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.Service\\IGS.Service.csproj"
             },
-            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
-              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj"
+            "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj"
             }
           }
         }
@@ -2871,8 +2871,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

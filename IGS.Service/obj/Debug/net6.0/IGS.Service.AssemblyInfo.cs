@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IGS.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9cd50bac3272b1a9646142a3758c78391332ddbc")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4d5b6388146825ae4b2fe7125b4d573d3d722cc")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d2287bfbb227b60fbdc14b4af676019dfd082b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("IGS.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IGS.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
