@@ -13,9 +13,30 @@ html {
   min-height: 100%;
 }
 
+.footer {
+    background-color: black;
+    width: 500px;
+    height: 150px;
+}
+
+.footer_link {
+    margin-top: 5px;
+    color: RGB( 194, 255, 63);
+    line-height: 0.9em;
+    margin-left: 20px;
+}
+
+.footer_link_right {
+    margin-top: 5px;
+    line-height: 1.5em;
+    color: RGB( 189, 0, 255);
+    text-align: right;
+    margin-right: 20px;
+}
+}
 body {
-  margin-bottom: 60px;
-  background-color:indigo;
+    margin-bottom: 60px;
+    background-color: RGB( 17, 18, 17);
 }
 ul{
     text-align:right;
@@ -26,7 +47,8 @@ input{
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: green;
 }
 
 nav {
@@ -44,7 +66,7 @@ nav {
 }
 
 header {
-    background-color: RGB( 17, 18, 17);
+    background-color:black;
 }
 
 .borderRegister {

@@ -13,7 +13,8 @@
 </head>
 <body>
 <header>
-	<nav>
+	<nav> 
+		
 		<a asp-controller="Home" asp-action="Index"><span style="color:white; font-family:Impact; font-size:30px;">IGS</span></a>
 		<form>
 		 
@@ -36,6 +37,18 @@
 			}
 </nav>
 </header>
+<div class = "footer" >
+	<p class = "footer_link" a> Главная  </a></p>
+	<p class = "footer_link" a>  О нас <br /></a></p>
+	<p class = "footer_link" a> Команда <br /></a></p>
+	<p class = "footer_link" a> Разработчикам <br /></a></p>
+	<p class = "footer_link" a> Справка <br /></a></p>
+
+	<p class = "footer_link_right" a> х(ххх)ххх-хх-хх <br /></a></p>
+	<p class = "footer_link_right" a> igs@mail.ruх <br /></a></p>
+	<p class = "footer_link_right" a> /адрес/ <br /></a></p>
+</div>
+
 <div class="container-fluid col-xl-12">
 	<main role="main">
 			@RenderBody()
