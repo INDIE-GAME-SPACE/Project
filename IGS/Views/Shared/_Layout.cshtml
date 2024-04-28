@@ -24,7 +24,7 @@
 			@if (!User.Identity.IsAuthenticated)
 			{
 				<a asp-controller="Account" asp-action="Login"  class = "logIn">Вход</a>
-				
+				<a asp-controller="Account" asp-action="Login" class = "logIn">Вход</a>				
 			}
 			@if (User.Identity.IsAuthenticated)
 			{
@@ -52,9 +52,9 @@
 	<div>
 		<img src="~/img/logo2.png" width="70px" height = "70px"/>
 		<nav>
-		<img src="~/img/logo2.png" width="30px" height = "30px"/>
-		<a asp-controller="Account" asp-action="Login"><img src="~/img/logo2.png" width="30px" height = "30px"/></a> 
-		<a asp-controller="Account" asp-action="Login"><img src="~/img/logo2.png" width="30px" height = "30px"/></a> 
+		<a asp-controller="Account" asp-action="Login"><img src="~/img/whats_base.png" width="30px" height = "30px"/></a> 
+		<a asp-controller="Account" asp-action="Login"><img src="~/img/vk_base.png" width="30px" height = "30px"/></a> 
+		<a asp-controller="Account" asp-action="Login"><img src="~/img/tg_base.png" width="30px" height = "30px"/></a> 
 		</nav>
 	</div>
 
