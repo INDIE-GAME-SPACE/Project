@@ -1,15 +1,11 @@
-﻿using IGS.Domain.Entity;
+﻿using MimeKit;
+using IGS.Domain.Entity;
 using IGS.DAL.Interfaces;
-using IGS.Domain.Responce;
+using IGS.Domain.Response;
 using IGS.Domain.Extensions;
 using System.Security.Claims;
 using IGS.Domain.ViewModels.Account;
 using StatusCode = IGS.Domain.Enums.StatusCode;
-using MimeKit;
-using Org.BouncyCastle.Asn1.Ocsp;
-using System;
-using System.Net.Http;
-using Microsoft.AspNetCore.Http;
 
 namespace IGS.Service.Implementations
 {
@@ -72,7 +68,7 @@ namespace IGS.Service.Implementations
                 Role role = default;
                 if (model.IUser && model.ICreator)
                     role = Role.All;
-                if(model.IUser)
+                if (model.IUser)
                     role = Role.Gamer;
                 if (model.ICreator)
                     role = Role.Creator;
@@ -96,7 +92,7 @@ namespace IGS.Service.Implementations
                     StatusCode = StatusCode.OperationSuccess,
                 };
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return new BaseResponse<ClaimsIdentity>()
                 {
@@ -106,14 +102,12 @@ namespace IGS.Service.Implementations
             }
         }
 
-
-
         public async Task<BaseResponse<ClaimsIdentity>> Login(LoginViewModel model)
         {
             try
             {
                 User user = await _userRepository.GetByLogin(model.Login);
-                
+
                 if (user == null)
                 {
                     user = await _userRepository.GetByEmail(model.Login);
@@ -124,10 +118,10 @@ namespace IGS.Service.Implementations
                             Description = "Пользователь не найден",
                             StatusCode = StatusCode.FoundElementError,
                         };
-                    }    
+                    }
                 }
 
-                if(user.Password != HashHelper.HashPassword(model.Password))
+                if (user.Password != HashHelper.HashPassword(model.Password))
                 {
                     return new BaseResponse<ClaimsIdentity>
                     {
@@ -151,7 +145,7 @@ namespace IGS.Service.Implementations
                     StatusCode = StatusCode.InternalServerError,
                 };
             }
-        } 
+        }
 
         private ClaimsIdentity Authenticate(User user)
         {
@@ -166,7 +160,7 @@ namespace IGS.Service.Implementations
             {
                 User user = await _userRepository.Get(id);
 
-                if(user == null)
+                if (user == null)
                 {
                     response.Description = "Данный пользователь не найден";
                     response.StatusCode = StatusCode.UserNotFound;
@@ -175,7 +169,7 @@ namespace IGS.Service.Implementations
                 response.Data = user;
                 return response;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return new BaseResponse<User>
                 {

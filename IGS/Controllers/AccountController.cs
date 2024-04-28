@@ -1,4 +1,5 @@
-﻿using IGS.Domain.Responce;
+﻿using DNTCaptcha.Core;
+using IGS.Domain.Response;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 using IGS.Service.Implementations;
@@ -6,8 +7,6 @@ using IGS.Domain.ViewModels.Account;
 using Microsoft.AspNetCore.Authentication;
 using Status = IGS.Domain.Enums.StatusCode;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using DNTCaptcha.Core;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace IGS.Controllers
 {
@@ -24,22 +23,21 @@ namespace IGS.Controllers
         [ValidateDNTCaptcha(ErrorMessage = "Please enter security code!")]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 BaseResponse<ClaimsIdentity> response = await _accountService.Register(model);
-                if (response.StatusCode == Status.OperationSuccess) 
+                if (response.StatusCode == Status.OperationSuccess)
                 {
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(response.Data));
                     return RedirectToAction("Index", "Home");
                 }
-                if(response.StatusCode == Status.CodeConfirmation)
+                if (response.StatusCode == Status.CodeConfirmation)
                 {
-					return View(model);
+                    return View(model);
                 }
             }
             return View(model);
         }
-
 
         [HttpGet]
         public IActionResult Login() => View();
@@ -50,7 +48,7 @@ namespace IGS.Controllers
             if (ModelState.IsValid)
             {
                 BaseResponse<ClaimsIdentity> response = await _accountService.Login(model);
-                if(response.StatusCode == Status.OperationSuccess)
+                if (response.StatusCode == Status.OperationSuccess)
                 {
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(response.Data));
                     return RedirectToAction("Index", "Home");

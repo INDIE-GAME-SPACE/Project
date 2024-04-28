@@ -10,7 +10,6 @@ D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.S
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.AssemblyInfoInputs.cache
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.AssemblyInfo.cs
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.csproj.CoreCompileInputs.cache
-D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.csproj.CopyComplete
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.dll
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\refint\IGS.Service.dll
 D:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.pdb
@@ -33,3 +32,5 @@ C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.dll
 C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\refint\IGS.Service.dll
 C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.pdb
 C:\Users\User1\Desktop\IGS\Project\IGS.Service\obj\Debug\net6.0\ref\IGS.Service.dll
+d:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Service.sourcelink.json
+d:\Проекты C#\Indie Game Space\Project\IGS.Service\obj\Debug\net6.0\IGS.Serv.5D34DD22.Up2Date
