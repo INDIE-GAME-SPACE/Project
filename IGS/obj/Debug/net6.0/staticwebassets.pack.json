@@ -5,20 +5,16 @@
       "PackagePath": "staticwebassets\\IGS.bundle.scp.css"
     },
     {
-      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\StyleSheet.css",
-      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\mainPage.css",
+      "PackagePath": "staticwebassets\\css\\mainPage.css"
     },
     {
-      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\rigester.css",
-      "PackagePath": "staticwebassets\\css\\rigester.css"
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\registerPage.css",
+      "PackagePath": "staticwebassets\\css\\registerPage.css"
     },
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
-      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\style.css",
-      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\favicon.ico",
@@ -35,6 +31,18 @@
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\logo2.png",
       "PackagePath": "staticwebassets\\img\\logo2.png"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\tg_base.png",
+      "PackagePath": "staticwebassets\\img\\tg_base.png"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\vk_base.png",
+      "PackagePath": "staticwebassets\\img\\vk_base.png"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\whats_base.png",
+      "PackagePath": "staticwebassets\\img\\whats_base.png"
     },
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\фон.jpg",

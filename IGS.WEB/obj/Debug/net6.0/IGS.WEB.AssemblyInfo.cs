@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IGS.WEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca416ba9883e8b45df6197021be5740a62c87530")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+718759ef00913f10807bc5edd422346be697d62c")]
 [assembly: System.Reflection.AssemblyProductAttribute("IGS.WEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IGS.WEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

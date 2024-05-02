@@ -1388,8 +1388,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
-              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj"
+            "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
+              "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj"
             }
           }
         }

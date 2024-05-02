@@ -6,76 +6,71 @@
 <title>@ViewData["Title"] - IGS</title> 
 <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> 
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> 
-<link rel="stylesheet" href="~/IGS.styles.css" asp-append-version="true" />
-<link rel="stylesheet" href="~/IGS.style.css" asp-append-version="true" />
-<link rel="stylesheet" href="~/css/register.css" asp-append-version="true" /> 
+<link rel="stylesheet" href="~/css/mainPage.css" asp-append-version="true" /> 
 
 </head>
 <body>
-<header>
-	<nav class ="header_nav"> 
-		
-		<a asp-controller="Home" asp-action="Index"><span style="color:white; font-family:Impact; font-size:30px;">IGS</span></a>
-		<form>
-		 <div>
-			<input type="text" value="Search"> <img src="~/img/find.icon.ico" width="25px" height = "25px"/><br>
-		 </div>
-		</form>
-			@if (!User.Identity.IsAuthenticated)
-			{
-				<a asp-controller="Account" asp-action="Login"  class = "logIn">Вход</a>
-				<a asp-controller="Account" asp-action="Login" class = "logIn">Вход</a>				
-			}
-			@if (User.Identity.IsAuthenticated)
-			{
-				<div class="dropdown">
-					<button class="dropbtn">@User.Identity.Name</button>
-						<div class="dropdown-content">
-							<a>Профиль</a>
-							<a asp-controller="Account" asp-action="Logout">Выход</a>
-						</div>
-				</div>
-			}
-</nav>
-</header>
-
-<div class = "footer" >
-
-	<nav>
-	<p class = "footer_link" a> Главная  </a></p>
-	<p class = "footer_link" a>  О нас <br /></a></p>
-	<p class = "footer_link" a> Команда <br /></a></p>
-	<p class = "footer_link" a> Разработчикам <br /></a></p>
-	<p class = "footer_link" a> Справка <br /></a></p>
+	<header>
+		<nav class ="headerStyle"> 
+			<a asp-controller="Home" asp-action="Index"><span style="color:white; font-family:Impact; font-size:30px;">IGS</span></a>
+			<form>
+			 <div>
+				<input type="text" value="Search"> <img src="~/img/find.icon.ico" width="25px" height = "25px"/><br>
+			 </div>
+			</form>
+				@if (!User.Identity.IsAuthenticated)
+				{
+					<a asp-controller="Account" asp-action="Login"  class = "logIn">Вход</a>	
+				}
+				@if (User.Identity.IsAuthenticated)
+				{
+					<div class="dropdown">
+						<button class="dropbtn">@User.Identity.Name</button>
+							<div class="dropdown-content">
+								<a>Профиль</a>
+								<a asp-controller="Account" asp-action="Logout">Выход</a>
+							</div>
+					</div>
+				}
 	</nav>
-
-	<div>
-		<img src="~/img/logo2.png" width="70px" height = "70px"/>
+	</header>
+	
+	<div class = "footer">
 		<nav>
-		<a asp-controller="Account" asp-action="Login"><img src="~/img/whats_base.png" width="30px" height = "30px"/></a> 
-		<a asp-controller="Account" asp-action="Login"><img src="~/img/vk_base.png" width="30px" height = "30px"/></a> 
-		<a asp-controller="Account" asp-action="Login"><img src="~/img/tg_base.png" width="30px" height = "30px"/></a> 
+		<p class = "footer_link" a> Главная  </a></p>
+		<p class = "footer_link" a>  О нас <br /></a></p>
+		<p class = "footer_link" a> Команда <br /></a></p>
+		<p class = "footer_link" a> Разработчикам <br /></a></p>
+		<p class = "footer_link" a> Справка <br /></a></p>
 		</nav>
+	
+		<div>
+			<img src="~/img/logo2.png" width="70px" height = "70px"/>
+			<nav>
+			<a asp-controller="Account" asp-action="Login"><img src="~/img/whats_base.png" width="30px" height = "30px"/></a> 
+			<a asp-controller="Account" asp-action="Login"><img src="~/img/vk_base.png" width="30px" height = "30px"/></a> 
+			<a asp-controller="Account" asp-action="Login"><img src="~/img/tg_base.png" width="30px" height = "30px"/></a> 
+			</nav>
+		</div>
+	
+	
+		<nav class = "footer_nav">
+		<p class = "footer_link_right" a> х(ххх)ххх-хх-хх <br /></a></p>
+		<p class = "footer_link_right" a> igs@mail.ruх <br /></a></p>
+		<p class = "footer_link_right" a> /адрес/ <br /></a></p>
+		</nav>
+	
 	</div>
-
-
-	<nav class = "footer_nav">
-	<p class = "footer_link_right" a> х(ххх)ххх-хх-хх <br /></a></p>
-	<p class = "footer_link_right" a> igs@mail.ruх <br /></a></p>
-	<p class = "footer_link_right" a> /адрес/ <br /></a></p>
-	</nav>
-
-</div>
-
-<div class="container-fluid col-xl-12">
-	<main role="main">
-			@RenderBody()
-	</main>
-</div>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/lib/jquery/dist/jquery.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-	@await RenderSectionAsync("pageScripts", required: false)
+	
+	<div class="container-fluid col-xl-12">
+		<main role="main">
+				@RenderBody()
+		</main>
+	</div>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+		@await RenderSectionAsync("pageScripts", required: false)
 </body>
 </html>
