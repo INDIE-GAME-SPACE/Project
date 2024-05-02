@@ -1,47 +1,3 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background-color: black;
-    width: 500px;
-    height: 170px;
-}
-
-.footer_link {
-    margin-top: 5px;
-    color: RGB( 194, 255, 63);
-    line-height: 0.9em;
-    margin-left: 20px;
-}
-
-.footer_link_right {
-    margin-top: 5px;
-    line-height: 1.5em;
-    color: RGB( 189, 0, 255);
-    text-align: right;
-    margin-right: 20px;
-}
-
-body{
-    margin-bottom: 60px;
-    background-color: RGB( 17, 18, 17);
-}
 ul{
     text-align:right;
 }
@@ -55,106 +11,12 @@ a {
     color: green;
 }
 
-.header_nav {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0.3125rem;
-    padding-bottom: 0.3125rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    font-size: 1.25rem;
-    text-decoration: none;
-    white-space: nowrap;
-}
-
-header {
-    background-color:white;
-}
-
-.borderRegister {
-    display:flex;
-    position:relative;
-    background-color:white;
-    width: 500px;
-    height: 800px;
-    justify-content: flex-start;
-    align-items: normal;
-    padding: 10px;
-    border: 5px groove black;
-}
-
-.registerPage {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-}
-
 .borders {
     display: inline-flex;
     justify-content: start;
     align-items: normal;
     width: 1100px;
 }
-
-.check {
-    display: flex;
-    margin-inline-start: -38%;
-    padding: 4px;
-}
-    .check i {
-        margin-inline-start: -26%;
-    }
-
-    .borderRegister-title {
-        display: block;
-        background-color: white;
-        width: 1100px;
-        height: 100px;
-        justify-content: center;
-        border: 5px groove black;
-    }
-
-.registerButton {
-    font-size: 20px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    right: 5%;
-    margin-bottom: 5%;
-    font-family: 'Times New Roman';
-    color: white;
-    background-color: blueviolet;
-    border: 0px solid white;
-}
-
-.borderRegister-info {
-    display: block;
-    background-color: white;
-    width: 600px;
-    height: 800px;
-    align-items: normal;
-    border: 5px groove black;
-}
-
-.borderRegister-info h1 {
-    font-size: 26px;
-    font-weight :bold;
-    font-family: 'Comic Sans MS';
-    text-align: center;
-    padding: 10px;
-    margin-top: 10%;
-}
-
-    .borderRegister-info p {
-        display : block;
-        margin-block-end:4%;
-        margin-inline-start:3%;
-        font-size: 20px;
-        font-family:Marlett;
-    }
 
 .inputBar {
     color: black;
@@ -171,22 +33,6 @@ header {
     font-size: 50px;
 }
 
-.captcha{
-    display:flex;
-    margin-top: 4%;
-}
-
-.captchaReload {
-    color: blue;
-    width:500px;
-    border:10px groove blue;
-}
-
-.captchaBox{
-    width : 173px;
-    display:flex;
-
-}
 
 .inputBar-header {
     color: black;
@@ -206,69 +52,4 @@ header {
     font-size: 30px;
 }
 
-/* Кнопка выпадающего списка */
-.dropbtn {
-    color: white;
-    font-family: Impact;
-    font-size: 30px;
-    width:150px;
-    background-color: RGB( 17, 18, 17);
-    border: none;
-}
 
-/* Контейнер <div> - необходим для размещения выпадающего содержимого */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-
-/* Выпадающее содержимое (скрыто по умолчанию) */
-.dropdown-content {
-    color: white;
-    font-family: Impact;
-    font-size: 30px;
-    display: none;
-    position: absolute;
-    background-color: none;
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-    /* Ссылки внутри выпадающего списка */
-    .dropdown-content a {
-        color: white;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-
-        /* Изменение цвета выпадающих ссылок при наведении курсора */
-
-        .dropdown-content a:hover {
-            color: red;
-        }
-
-        .dropdown-content a:hover {
-            color:red;
-        }
-
-/* Показать выпадающее меню при наведении курсора */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
-.dropdown:hover .dropbtn {
-    border:groove;
-}
-
-/* Изображение аватарки, в футере
-.image {
-    width: 300px;
-    height: 200px;
-    background-image: url('c:\users\user1\desktop\igs\project\igs\views\shared\avatar.jpg');
-    background-size: cover;
-}
-*/
