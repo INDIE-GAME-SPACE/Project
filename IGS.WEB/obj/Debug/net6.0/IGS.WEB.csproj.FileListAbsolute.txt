@@ -1,29 +1,13 @@
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\bin\Debug\net6.0\IGS.WEB.deps.json
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\bin\Debug\net6.0\IGS.WEB.dll
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\bin\Debug\net6.0\IGS.WEB.pdb
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.GeneratedMSBuildEditorConfig.editorconfig
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.AssemblyInfoInputs.cache
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.AssemblyInfo.cs
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.csproj.CoreCompileInputs.cache
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.dll
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\refint\IGS.WEB.dll
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.pdb
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\ref\IGS.WEB.dll
-<<<<<<< Updated upstream
-D:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.csproj.AssemblyReference.cache
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\bin\Debug\net6.0\IGS.WEB.deps.json
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\bin\Debug\net6.0\IGS.WEB.dll
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\bin\Debug\net6.0\IGS.WEB.pdb
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.csproj.AssemblyReference.cache
-=======
->>>>>>> Stashed changes
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.AssemblyInfoInputs.cache
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.AssemblyInfo.cs
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.csproj.CoreCompileInputs.cache
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.sourcelink.json
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.dll
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\refint\IGS.WEB.dll
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.pdb
-C:\Users\User1\Desktop\IGS\Project\IGS.WEB\obj\Debug\net6.0\ref\IGS.WEB.dll
-d:\Проекты C#\Indie Game Space\Project\IGS.WEB\obj\Debug\net6.0\IGS.WEB.sourcelink.json
+C:\Users\User1\Desktop\IGS\IGS.WEB\bin\Debug\net6.0\IGS.WEB.deps.json
+C:\Users\User1\Desktop\IGS\IGS.WEB\bin\Debug\net6.0\IGS.WEB.dll
+C:\Users\User1\Desktop\IGS\IGS.WEB\bin\Debug\net6.0\IGS.WEB.pdb
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.csproj.AssemblyReference.cache
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.AssemblyInfo.cs
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.sourcelink.json
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.dll
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\refint\IGS.WEB.dll
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\IGS.WEB.pdb
+C:\Users\User1\Desktop\IGS\IGS.WEB\obj\Debug\net6.0\ref\IGS.WEB.dll

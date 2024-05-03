@@ -16,9 +16,14 @@ header {
     background-color:black;
 }
 
+
+
 body {
-    background-color: rgb(27, 26, 26);
-    display: block;
+    background-color: rgb(27, 26, 26);н\
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .footer {
@@ -50,6 +55,12 @@ body {
     color: RGB( 189, 0, 255);
     text-align: right;
     margin-right: 20px;
+}
+.footer_icon{
+    margin-right: 8px;
+}
+.footer_icon_logo {
+    margin-bottom: 15px;
 }
 
 .dropdown {

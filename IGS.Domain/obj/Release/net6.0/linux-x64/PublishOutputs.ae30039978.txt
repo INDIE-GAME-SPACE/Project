@@ -1,3 +1,0 @@
-D:\Проекты C#\Indie Game Space\Project\IGS\publish\IGS.Domain.dll
-D:\Проекты C#\Indie Game Space\Project\IGS\publish\IGS.Domain.deps.json
-D:\Проекты C#\Indie Game Space\Project\IGS\publish\IGS.Domain.pdb
