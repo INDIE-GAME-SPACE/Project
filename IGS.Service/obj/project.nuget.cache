@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5/2TfmwyOBVQNsWfSa4dWVXzzjM1fU0DKGK5ViM2bOHQRFZcIjbLOIkiX/SvX4vDZjNUxCyhslbpHPAxeXmcgw==",
+  "dgSpecHash": "a7p1a9WEbKHztvv8te5bA9JMJPlPAoveK+FNreGBjGI/+LpL5M6NStM5hbjr9AtmXJjG+4K73vkd+h3AW8plhQ==",
   "success": true,
-  "projectFilePath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
+  "projectFilePath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Андрей\\.nuget\\packages\\bouncycastle.cryptography\\2.3.0\\bouncycastle.cryptography.2.3.0.nupkg.sha512",
     "C:\\Users\\Андрей\\.nuget\\packages\\dntcaptcha.core\\5.2.1\\dntcaptcha.core.5.2.1.nupkg.sha512",

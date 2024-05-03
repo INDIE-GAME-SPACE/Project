@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {}
+    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {}
   },
   "projects": {
     "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj": {
@@ -14,12 +14,14 @@
         "outputPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -104,12 +106,14 @@
         "outputPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -176,22 +180,24 @@
         }
       }
     },
-    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {
+    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
+        "projectUniqueName": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
         "projectName": "IGS.Service",
-        "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
+        "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
         "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\obj\\",
+        "outputPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

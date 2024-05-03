@@ -31,10 +31,10 @@ body {
     height: 170px;
     
     position:absolute;
-    left:0px;
-    bottom:0px;
+    left: 0;
+    bottom: 0;
     
-    margin:0 auto -150px;
+    margin-top: -200px;
 }
 
 .footer_link {
