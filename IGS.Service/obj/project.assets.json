@@ -1477,35 +1477,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Андрей\\.nuget\\packages\\": {}
+    "C:\\Users\\User1\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
+      "projectUniqueName": "C:\\Users\\User1\\Desktop\\IGS\\IGS.Service\\IGS.Service.csproj",
       "projectName": "IGS.Service",
-      "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj",
-      "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-      "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\obj\\",
+      "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\IGS.Service\\IGS.Service.csproj",
+      "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User1\\Desktop\\IGS\\IGS.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj": {
-              "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj"
+            "C:\\Users\\User1\\Desktop\\IGS\\IGS.DAL\\IGS.DAL.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\IGS.DAL\\IGS.DAL.csproj"
             },
-            "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
-              "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj"
+            "C:\\Users\\User1\\Desktop\\IGS\\IGS.Domain\\IGS.Domain.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\IGS.Domain\\IGS.Domain.csproj"
             }
           }
         }
@@ -1514,11 +1516,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1549,26 +1546,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.29, 6.0.29]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

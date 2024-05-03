@@ -12,10 +12,10 @@
 <body>
 	<header>
 		<nav class ="headerStyle"> 
-			<a asp-controller="Home" asp-action="Index"><span style="color:white; font-family:Impact; font-size:30px;">IGS</span></a>
+			<a asp-controller="Home" asp-action="Index"><img style="margin-right: 10px; margin-left: -28px; margin-bottom: 12px;" src="~/img/logo2.png" width="40px" height = 40px"/><span style="color:white; font-family:Impact; font-size:30px;">IGS</span></a>
 			<form>
 			 <div>
-				<input type="text" value="Search"> <img src="~/img/find.icon.ico" width="25px" height = "25px"/><br>
+				<input type="text" value="Search"> <img style="margin-left: -40px; margin-bottom: 5px;" src="~/img/find.icon.ico" width="25px" height = "25px"/><br>
 			 </div>
 			</form>
 				@if (!User.Identity.IsAuthenticated)
@@ -37,19 +37,19 @@
 	
 	<div class = "footer">
 		<nav>
-		<p class = "footer_link" a> Главная  </a></p>
-		<p class = "footer_link" a>  О нас <br /></a></p>
-		<p class = "footer_link" a> Команда <br /></a></p>
-		<p class = "footer_link" a> Разработчикам <br /></a></p>
-		<p class = "footer_link" a> Справка <br /></a></p>
+		<a asp-controller="Account" asp-action="Login"><p class = "footer_link" > Главная  </p></a>
+		<a asp-controller="Account" asp-action="Login"><p class = "footer_link">  О нас <br /></p></a>
+		<a asp-controller="Account" asp-action="Login"><p class = "footer_link" > Команда <br /></p></a>
+		<a asp-controller="Account" asp-action="Login"><p class = "footer_link" > Разработчикам <br /></p></a>
+		<a asp-controller="Account" asp-action="Login"><p class = "footer_link"> Справка <br /></p></a>
 		</nav>
 	
 		<div>
-			<img src="~/img/logo2.png" width="70px" height = "70px"/>
+			<img class = "footer_icon_logo" src="~/img/logo2.png" width="70px" height = "70px"/>
+			
 			<nav>
-			<a asp-controller="Account" asp-action="Login"><img src="~/img/whats_base.png" width="30px" height = "30px"/></a> 
-			<a asp-controller="Account" asp-action="Login"><img src="~/img/vk_base.png" width="30px" height = "30px"/></a> 
-			<a asp-controller="Account" asp-action="Login"><img src="~/img/tg_base.png" width="30px" height = "30px"/></a> 
+				<a asp-controller="Account" asp-action="Login"><img class = "footer_icon" src="~/img/tg2.png" width="28px" height = "26px"/></a>
+				<a asp-controller="Account" asp-action="Login"><img src="~/img/vk1.png" width="30px" height = "30px"/></a>
 			</nav>
 		</div>
 	

@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj",
+      "projectUniqueName": "C:\\Users\\User1\\Desktop\\IGS\\IGS.WEB\\IGS.WEB.csproj",
       "projectName": "IGS.WEB",
-      "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\IGS.WEB.csproj",
+      "projectPath": "C:\\Users\\User1\\Desktop\\IGS\\IGS.WEB\\IGS.WEB.csproj",
       "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User1\\Desktop\\IGS\\Project\\IGS.WEB\\obj\\",
+      "outputPath": "C:\\Users\\User1\\Desktop\\IGS\\IGS.WEB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config",
