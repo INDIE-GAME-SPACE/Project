@@ -18,42 +18,42 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = d:\Проекты C#\Indie Game Space\Project\IGS
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Account/Login.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Account/Register.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Home/Index.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Home/Privacy.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Component/CodeConfirmViewcshtml.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Component/CodeConfirmViewcshtml.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudFxDb2RlQ29uZmlybVZpZXdjc2h0bWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Error.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/_ViewImports.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/_ViewStart.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/_Layout.cshtml]
+[d:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uocc5r0wtw
