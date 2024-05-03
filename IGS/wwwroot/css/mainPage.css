@@ -17,9 +17,53 @@ header {
 }
 
 
+
+.center_text_head {
+    color: RGB( 194, 255, 63);
+    font-family: "Luminari", fantasy;
+    font-size: 28px;
+    font-weight: 150;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+figure {
+    float: left;
+    width: 23%;
+    text-align: left;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.center_image {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 270px;
+    height: 250px;
+}
+.center_text {
+    margin-top: 2px;
+    color: white;
+    font-family: "Luminari", fantasy;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.center_text_cost {
+    margin-top: 2px;
+    margin-left: 8px;
+    color: RGB( 189, 0, 255);
+    font-family: "Luminari", fantasy;
+    font-weight: 150;
+    font-size: 16px;
+    margin-bottom: 5px;
+    float: right;
+}
+
+
+
+
 html,
 body {
-    background-color: rgb(27, 26, 26);
+    background-color: rgb(15, 13, 13);
     display: flex;
     flex-direction: column;
     height: 100%;
