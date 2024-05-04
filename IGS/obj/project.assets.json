@@ -2793,11 +2793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
+      "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
       "projectName": "IGS",
-      "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
+      "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\IGS.csproj",
       "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-      "outputPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\obj\\",
+      "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2814,17 +2814,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj": {
-              "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj"
+            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj": {
+              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.DAL\\IGS.DAL.csproj"
             },
-            "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
-              "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj"
+            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
+              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj"
             },
-            "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {
-              "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj"
+            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj": {
+              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Service\\IGS.Service.csproj"
             },
-            "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
-              "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj"
+            "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
+              "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj"
             }
           }
         }

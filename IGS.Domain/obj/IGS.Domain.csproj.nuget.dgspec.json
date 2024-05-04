@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {}
+    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {}
   },
   "projects": {
-    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
+    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj",
+        "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj",
         "projectName": "IGS.Domain",
-        "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj",
+        "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\IGS.Domain.csproj",
         "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\obj\\",
+        "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
