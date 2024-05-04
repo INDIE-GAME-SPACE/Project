@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {}
+    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {}
   },
   "projects": {
-    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
+    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
+        "projectUniqueName": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
         "projectName": "IGS.WEB",
-        "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
+        "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
         "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\obj\\",
+        "outputPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
