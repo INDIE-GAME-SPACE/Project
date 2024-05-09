@@ -11,60 +11,105 @@
   <style>
    html { overflow-x: hidden; }
   </style>
-  </head>
+</head>
+
+<div class = "content">
+    <div class="menu">
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu_head" > Категории</p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Хорор </p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Многопользовательские <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Симулятор <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Аркады <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Гонки <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Ролевые <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Приключения <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Спортивные игры <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Стратегии <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu_head" > Игры по цене <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Бесплатные игры <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Меньше 500р. <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Больше 500р. <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Лучшеие продавцы <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > С демо-версией <br /></p></a>
+    </div>
+    <div class = "games">
+        <div class = "reklama">
+            <div class="image_reklama">
+                <img src="~/img/igra6.png" alt="Image 1">
+            </div>
+             <div class="image_reklama2">
+                <img src="~/img/rek1.jpg" alt="Image 1">
+            </div>
+             <div class="image_reklama2">
+                <img src="~/img/rek2.jpg" alt="Image 1">
+            </div>
+             <div class="image_reklama2">
+                <img src="~/img/rek3.jpg" alt="Image 1">
+            </div>
+            <div class = "recommend_reklama">
+                <p > Tristram   <span class="recommend_reklama_cost">  FREE </p>
+            </div>
+            
+             
+        </div>
+        <div class = "recommend">
+            <p > Рекомендовавнное </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra6.png" alt="Image 1">
+            <p>Tristram <span class="center_text_cost">600р </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra7.png" alt="Image 1">
+            <p>Detective Face <span class="center_text_cost"> FREE </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra8.png" alt="Image 1">
+            <p>Peryne <span class="center_text_cost"> 500р </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra9.png" alt="Image 1">
+            <p>Sokobond Express <span class="center_text_cost"> 200р </p>
+        </div>
+        <div class = "recommend">
+            <p > Популярное </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra10.png" alt="Image 1">
+            <p>Beecarbonize <span class="center_text_cost"> 400р </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra11.png" alt="Image 1">
+            <p>Killers <span class="center_text_cost"> FREE </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra12.png" alt="Image 1">
+            <p>Kingsvein <span class="center_text_cost"> 700р </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra13.png" alt="Image 1">
+            <p>Maerl <span class="center_text_cost"> 200р </p>
+        </div>
+         <div class = "recommend">
+            <p > Новинки </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra1.png" alt="Image 1">
+            <p>Gauntlet of Power - Teaser Demo <span class="center_text_cost"> 500р </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra2.png" alt="Image 1">
+            <p>Cursorblade (Demo) <span class="center_text_cost"> FREE </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra3.png" alt="Image 1">
+            <p>Project Homecoming Haven <span class="center_text_cost"> 200р </p>
+        </div>
+        <div class="image">
+            <img src="~/img/igra5.png" alt="Image 1">
+            <p>Death of a Wish <span class="center_text_cost"> 300р </p>
+        </div>
   
-	<div>
-			<p class = "center_text_head" > Рекомендовавнное  </p>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra1.png"></a>
-				<figcaption class = "center_text" > Gauntlet of Power - Teaser Demo <span class="center_text_cost"> 500р. </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra2.png"></a>
-				<figcaption class = "center_text">Cursorblade (Demo) <span class="center_text_cost">   FREE </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra3.png"></a>
-				<figcaption class = "center_text"> Project Homecoming Haven <span class="center_text_cost">   600р. </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra5.png"></a>
-				<figcaption class = "center_text">Death of a Wish <span class="center_text_cost">   200р.</figcaption>
-			</figure>
-			
-			<p class = "center_text_head" > Популярное  </p>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra6.png"></a>
-				<figcaption class = "center_text" > Tristram <span class="center_text_cost"> 500р. </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra7.png"></a>
-				<figcaption class = "center_text">Detective Face <span class="center_text_cost">   FREE </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra8.png"></a>
-				<figcaption class = "center_text"> Peryne <span class="center_text_cost">   600р. </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra9.png"></a>
-				<figcaption class = "center_text">Sokobond Express <span class="center_text_cost">   200р.</figcaption>
-			</figure>
-			
-			<p class = "center_text_head" > Новинки  </p>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra10.png"></a>
-				<figcaption class = "center_text" >Beecarbonize <span class="center_text_cost"> 500р. </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra11.png"></a>
-				<figcaption class = "center_text">24 Killers <span class="center_text_cost">   FREE </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra12.png"></a>
-				<figcaption class = "center_text"> Kingsvein <span class="center_text_cost">   600р. </figcaption>
-			</figure>
-			<figure>
-				<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra13.png"></a>
-				<figcaption class = "center_text">Maerl <span class="center_text_cost">   200р.</figcaption>
-			</figure>
-		</div>
+    
+    </div>     
+</div>

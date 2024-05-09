@@ -81,6 +81,18 @@
       "PackagePath": "staticwebassets\\img\\logo2.png"
     },
     {
+      "Id": "C:\\Users\\User1\\Desktop\\IGS\\IGS\\wwwroot\\img\\rek1.jpg",
+      "PackagePath": "staticwebassets\\img\\rek1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User1\\Desktop\\IGS\\IGS\\wwwroot\\img\\rek2.jpg",
+      "PackagePath": "staticwebassets\\img\\rek2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User1\\Desktop\\IGS\\IGS\\wwwroot\\img\\rek3.jpg",
+      "PackagePath": "staticwebassets\\img\\rek3.jpg"
+    },
+    {
       "Id": "C:\\Users\\User1\\Desktop\\IGS\\IGS\\wwwroot\\img\\tg1.png",
       "PackagePath": "staticwebassets\\img\\tg1.png"
     },

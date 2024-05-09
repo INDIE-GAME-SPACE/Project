@@ -16,49 +16,121 @@ header {
     background-color:black;
 }
 
-
-
-.center_text_head {
-    color: RGB( 194, 255, 63);
-    font-family: "Luminari", fantasy;
-    font-size: 28px;
-    font-weight: 150;
-    margin-left: 30px;
-    margin-top: 30px;
+.content {
+    display: inline-block;
+    width: 100%;
 }
-figure {
+
+.menu {
     float: left;
-    width: 23%;
+    position: sticky;
+    top: 0;
+    background: RGB(10, 9, 9);
+    padding: 10px;
+    width: 20%;
+    height: 100vh;
+}
+
+.text_menu {
+    color: white;
+
+}
+.text_menu_head {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 9px;
+    font-weight: 700;
+}
+
+.image {
+    display: inline-block;
+    margin: 10px;
     text-align: left;
-    margin: 0.5em;
-    padding: 0.5em;
-}
-.center_image {
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-right: 20px;
-    width: 270px;
-    height: 250px;
-}
-.center_text {
     margin-top: 2px;
     color: white;
     font-family: "Luminari", fantasy;
-    font-size: 16px;
-    margin-bottom: 5px;
+    font-size: 14px;
 }
+
+.image_reklama {
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+    top: 0;
+    color: white;
+    font-family: "Luminari", fantasy;
+    font-size: 32px;
+}
+
+.image_reklama2 {
+    display: inline-block;
+    margin: 15px;
+ 
+}
+
+.image_reklama2 img{
+    width: 210px;
+    height: 170px;
+    margin-top: -120px;
+}
+
+.image img {
+  width: 250px; 
+  height: 200px;
+ 
+}
+
+.image_reklama img {
+    width: 350px;
+    height: 300px;
+}
+
+.image p {
+  margin-top: 10px;
+}
+
 .center_text_cost {
     margin-top: 2px;
     margin-left: 8px;
     color: RGB( 189, 0, 255);
     font-family: "Luminari", fantasy;
     font-weight: 150;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 5px;
     float: right;
 }
 
+.recommend { 
+    margin: 15x;
+    color: RGB( 194, 255, 63);
+    font-family: "Luminari", fantasy;
+    font-size: 24px;
+}
 
+.recommend_reklama {
+    margin: 15x;
+    color: white;
+    font-family: "Luminari", fantasy;
+    font-size: 32px;
+    margin-left: 390px;
+    margin-top: -48px;
+}
+.recommend_reklama_cost {
+    margin: 15x;
+    color: RGB( 194, 255, 63);
+    font-family: "Luminari", fantasy;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+
+
+
+
+.games {
+    display: block;
+    margin-left: 355px;
+}
 
 
 html,
@@ -67,6 +139,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .main{
