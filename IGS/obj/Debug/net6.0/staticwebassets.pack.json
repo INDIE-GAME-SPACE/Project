@@ -101,6 +101,18 @@
       "PackagePath": "staticwebassets\\img\\logo2.png"
     },
     {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\rek1.jpg",
+      "PackagePath": "staticwebassets\\img\\rek1.jpg"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\rek2.jpg",
+      "PackagePath": "staticwebassets\\img\\rek2.jpg"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\rek3.jpg",
+      "PackagePath": "staticwebassets\\img\\rek3.jpg"
+    },
+    {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\tg1.png",
       "PackagePath": "staticwebassets\\img\\tg1.png"
     },

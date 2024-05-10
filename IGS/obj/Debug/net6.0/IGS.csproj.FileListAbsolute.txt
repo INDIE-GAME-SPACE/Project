@@ -191,3 +191,4 @@ d:\Проекты C#\Indie Game Space\Project\IGS\obj\Debug\net6.0\IGS.pdb
 d:\Проекты C#\Indie Game Space\Project\IGS\obj\Debug\net6.0\IGS.genruntimeconfig.cache
 d:\Проекты C#\Indie Game Space\Project\IGS\obj\Debug\net6.0\ref\IGS.dll
 C:\Users\User1\Desktop\IGS\IGS\bin\Debug\net6.0\libman.json
+d:\Проекты C#\Indie Game Space\Project\IGS\bin\Debug\net6.0\libman.json
