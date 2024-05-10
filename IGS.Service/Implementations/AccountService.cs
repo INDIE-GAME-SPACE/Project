@@ -9,198 +9,214 @@ using StatusCode = IGS.Domain.Enums.StatusCode;
 
 namespace IGS.Service.Implementations
 {
-    public class AccountService
-    {
-        private readonly IUserRepository _userRepository;
+	public class AccountService
+	{
+		private readonly IUserRepository _userRepository;
+		private readonly IProfileRepository _profileRepository;
 
-        public AccountService(IUserRepository userRepository) => _userRepository = userRepository;
+		public AccountService(IUserRepository userRepository, IProfileRepository profileRepository)
+		{
+			_userRepository = userRepository;
+			_profileRepository = profileRepository;
+		}
 
-        public async Task<BaseResponse<ClaimsIdentity>> Register(RegisterViewModel model)
-        {
-            try
-            {
-                User user = await _userRepository.GetByLogin(model.Login);
-                if (user != null)
-                {
-                    return new BaseResponse<ClaimsIdentity>()
-                    {
-                        Description = "Пользователь с таким логином уже найден",
-                        StatusCode = StatusCode.AddElementError,
-                    };
-                }
+		public async Task<BaseResponse<ClaimsIdentity>> Register(RegisterViewModel model)
+		{
+			try
+			{
+				User user = await _userRepository.GetByLogin(model.Login);
+				if (user != null)
+				{
+					return new BaseResponse<ClaimsIdentity>()
+					{
+						Description = "Пользователь с таким логином уже найден",
+						StatusCode = StatusCode.AddElementError,
+					};
+				}
 
-                user = await _userRepository.GetByEmail(model.EmailAdress);
+				user = await _userRepository.GetByEmail(model.EmailAdress);
 
-                if (user != null)
-                {
-                    return new BaseResponse<ClaimsIdentity>()
-                    {
-                        Description = "Пользователь с такой почтой уже найден",
-                        StatusCode = StatusCode.AddElementError,
-                    };
-                }
+				if (user != null)
+				{
+					return new BaseResponse<ClaimsIdentity>()
+					{
+						Description = "Пользователь с такой почтой уже найден",
+						StatusCode = StatusCode.AddElementError,
+					};
+				}
 
-                int code = RandomGenerator.GenerateCodeAuthenticator();
+				int code = RandomGenerator.GenerateCodeAuthenticator();
 
-                try
-                {
-                    MimeMessage message = new MimeMessage();
-                    message.From.Add(new MailboxAddress("IndieGameSpace", "andrey.3remeev@yandex.ru"));
-                    message.To.Add(new MailboxAddress(" ", model.EmailAdress));
-                    message.Subject = "Подтверждение регистрации";
-                    message.Body = new BodyBuilder()
-                    {
-                        HtmlBody = "<div style=\"color: black; font-size : 20px; \">Ссылка для подтверждения регистрации</div>"
-                        + "<div style=\"color: blue; font-size : 20px; \"><u>Подтвердить почту</u></div>",
+				try
+				{
+					MimeMessage message = new MimeMessage();
+					message.From.Add(new MailboxAddress("IndieGameSpace", "andrey.3remeev@yandex.ru"));
+					message.To.Add(new MailboxAddress(" ", model.EmailAdress));
+					message.Subject = "Подтверждение регистрации";
+					message.Body = new BodyBuilder()
+					{
+						HtmlBody = "<div style=\"color: black; font-size : 20px; \">Ссылка для подтверждения регистрации</div>"
+						+ "<div style=\"color: blue; font-size : 20px; \"><u>Подтвердить почту</u></div>",
 
-                    }.ToMessageBody();
+					}.ToMessageBody();
 
-                    using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
-                    {
-                        client.Connect("smtp.yandex.ru", 465, true);
-                        client.Authenticate("andrey.3remeev@yandex.ru", "OKiPEm8dQc8cIlCCRr0ZTaEg7OFyJEXh9Idrccq5MywXeqA48HTqthsCPlwVFBZA#");
-                        client.Send(message);
-                        client.Disconnect(true);
-                    }
-                }
-                catch (Exception ex) { }
+					using (MailKit.Net.Smtp.SmtpClient client = new MailKit.Net.Smtp.SmtpClient())
+					{
+						client.Connect("smtp.yandex.ru", 465, true);
+						client.Authenticate("andrey.3remeev@yandex.ru", "OKiPEm8dQc8cIlCCRr0ZTaEg7OFyJEXh9Idrccq5MywXeqA48HTqthsCPlwVFBZA#");
+						client.Send(message);
+						client.Disconnect(true);
+					}
+				}
+				catch (Exception ex) { }
 
-                Role role = default;
-                if (model.IUser && model.ICreator)
-                    role = Role.All;
-                if (model.IUser)
-                    role = Role.Gamer;
-                if (model.ICreator)
-                    role = Role.Creator;
+				Role role = default;
+				if (model.IUser && model.ICreator)
+					role = Role.All;
+				if (model.IUser)
+					role = Role.Gamer;
+				if (model.ICreator)
+					role = Role.Creator;
 
-                user = new User()
-                {
-                    Login = model.Login,
-                    Password = HashHelper.HashPassword(model.Password),
-                    Email = model.EmailAdress,
-                    AuthenticationPassed = 0,
-                    Role = role.ToString(),
-                };
+				user = new User()
+				{
+					Login = model.Login,
+					Password = HashHelper.HashPassword(model.Password),
+					Email = model.EmailAdress,
+					AuthenticationPassed = 0,
+					Role = role.ToString(),
+				};
 
-                await _userRepository.Create(user);
-                ClaimsIdentity result = Authenticate(user);
+				Profile profile = new Profile()
+				{
+					Name = model.Login,
+					Description = "Description",
+				};
 
-                return new BaseResponse<ClaimsIdentity>()
-                {
-                    Data = result,
-                    Description = "Пользователь добавлен",
-                    StatusCode = StatusCode.OperationSuccess,
-                };
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<ClaimsIdentity>()
-                {
-                    Description = ex.Message,
-                    StatusCode = StatusCode.InternalServerError,
-                };
-            }
-        }
+				await _userRepository.Create(user);
+				await _profileRepository.Create(profile);
 
-        public async Task<BaseResponse<ClaimsIdentity>> Login(LoginViewModel model)
-        {
-            try
-            {
-                User user = await _userRepository.GetByLogin(model.Login);
+				ClaimsIdentity result = Authenticate(user);
 
-                if (user == null)
-                {
-                    user = await _userRepository.GetByEmail(model.Login);
-                    if (user == null)
-                    {
-                        return new BaseResponse<ClaimsIdentity>()
-                        {
-                            Description = "Пользователь не найден",
-                            StatusCode = StatusCode.FoundElementError,
-                        };
-                    }
-                }
+				return new BaseResponse<ClaimsIdentity>()
+				{
+					Data = result,
+					Description = "Пользователь добавлен",
+					StatusCode = StatusCode.OperationSuccess,
+				};
+			}
+			catch (Exception ex)
+			{
+				return new BaseResponse<ClaimsIdentity>()
+				{
+					Description = ex.Message,
+					StatusCode = StatusCode.InternalServerError,
+				};
+			}
+		}
 
-                if (user.Password != HashHelper.HashPassword(model.Password))
-                {
-                    return new BaseResponse<ClaimsIdentity>
-                    {
-                        Description = "Неверный пароль",
-                    };
-                }
+		public async Task<BaseResponse<ClaimsIdentity>> Login(LoginViewModel model)
+		{
+			try
+			{
+				User user = await _userRepository.GetByLogin(model.Login);
 
-                ClaimsIdentity result = Authenticate(user);
+				if (user == null)
+				{
+					user = await _userRepository.GetByEmail(model.Login);
+					if (user == null)
+					{
+						return new BaseResponse<ClaimsIdentity>()
+						{
+							Description = "Пользователь не найден",
+							StatusCode = StatusCode.FoundElementError,
+						};
+					}
+				}
 
-                return new BaseResponse<ClaimsIdentity>()
-                {
-                    Data = result,
-                    StatusCode = StatusCode.OperationSuccess,
-                };
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<ClaimsIdentity>()
-                {
-                    Description = ex.Message,
-                    StatusCode = StatusCode.InternalServerError,
-                };
-            }
-        }
+				if (user.Password != HashHelper.HashPassword(model.Password))
+				{
+					return new BaseResponse<ClaimsIdentity>
+					{
+						Description = "Неверный пароль",
+					};
+				}
 
-        private ClaimsIdentity Authenticate(User user)
-        {
-            var claims = new List<Claim> { new Claim(ClaimsIdentity.DefaultNameClaimType, user.Login), };
-            return new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
-        }
+				ClaimsIdentity result = Authenticate(user);
 
-        public async Task<BaseResponse<User>> GetUser(int id)
-        {
-            BaseResponse<User> response = new BaseResponse<User>();
-            try
-            {
-                User user = await _userRepository.Get(id);
+				return new BaseResponse<ClaimsIdentity>()
+				{
+					Data = result,
+					StatusCode = StatusCode.OperationSuccess,
+				};
+			}
+			catch (Exception ex)
+			{
+				return new BaseResponse<ClaimsIdentity>()
+				{
+					Description = ex.Message,
+					StatusCode = StatusCode.InternalServerError,
+				};
+			}
+		}
 
-                if (user == null)
-                {
-                    response.Description = "Данный пользователь не найден";
-                    response.StatusCode = StatusCode.UserNotFound;
-                }
+		private ClaimsIdentity Authenticate(User user)
+		{
+			var claims = new List<Claim> {
+			new Claim(ClaimsIdentity.DefaultNameClaimType, user.Login),
+			new Claim(ClaimsIdentity.DefaultRoleClaimType, user.Role),
+			};
+			return new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
+		}
 
-                response.Data = user;
-                return response;
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<User>
-                {
-                    Description = $"[GetUser] : {ex.Message}"
-                };
-            }
-        }
+		public async Task<BaseResponse<User>> GetUser(int id)
+		{
+			BaseResponse<User> response = new BaseResponse<User>();
+			try
+			{
+				User user = await _userRepository.Get(id);
 
-        public async Task<BaseResponse<List<User>>> GetUsers()
-        {
-            BaseResponse<List<User>> response = new BaseResponse<List<User>>();
-            try
-            {
-                List<User> users = await _userRepository.Select();
+				if (user == null)
+				{
+					response.Description = "Данный пользователь не найден";
+					response.StatusCode = StatusCode.UserNotFound;
+				}
 
-                if (users.Count == 0)
-                {
-                    response.Description = "Отсутсвуют элементы";
-                    response.StatusCode = StatusCode.EmptyCollection;
-                }
+				response.Data = user;
+				return response;
+			}
+			catch (Exception ex)
+			{
+				return new BaseResponse<User>
+				{
+					Description = $"[GetUser] : {ex.Message}"
+				};
+			}
+		}
 
-                response.Data = users;
-                return response;
-            }
-            catch (Exception ex)
-            {
-                return new BaseResponse<List<User>>
-                {
-                    Description = $"[GetUser] : {ex.Message}"
-                };
-            }
-        }
-    }
+		public async Task<BaseResponse<List<User>>> GetUsers()
+		{
+			BaseResponse<List<User>> response = new BaseResponse<List<User>>();
+			try
+			{
+				List<User> users = await _userRepository.Select();
+
+				if (users.Count == 0)
+				{
+					response.Description = "Отсутсвуют элементы";
+					response.StatusCode = StatusCode.EmptyCollection;
+				}
+
+				response.Data = users;
+				return response;
+			}
+			catch (Exception ex)
+			{
+				return new BaseResponse<List<User>>
+				{
+					Description = $"[GetUser] : {ex.Message}"
+				};
+			}
+		}
+	}
 }

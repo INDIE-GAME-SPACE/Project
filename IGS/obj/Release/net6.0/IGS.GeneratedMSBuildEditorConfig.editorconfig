@@ -30,12 +30,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Settings/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2V0dGluZ3NcU2V0dGluZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Component/CodeConfirmViewcshtml.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudFxDb2RlQ29uZmlybVZpZXdjc2h0bWwuY3NodG1s
+[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Components/Confidentiality/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29uZmlkZW50aWFsaXR5XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Components/DeleteAccount/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGVsZXRlQWNjb3VudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Components/Profile/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZmlsZVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Components/Safety/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2FmZXR5XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Проекты C\#/Indie Game Space/Project/IGS/Views/Shared/Error.cshtml]

@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 
 namespace IGS.Components
 {
-    public class CodeConfirmViewComponent : ViewComponent
+    public class SafetyViewComponent : ViewComponent
     {
         public async Task<IViewComponentResult> InvokeAsync()
         {

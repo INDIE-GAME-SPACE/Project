@@ -10,11 +10,13 @@ namespace IGS
         public static void InitializeRepositories(this IServiceCollection services)
         {
             services.AddScoped<IBaseRepository<User>, UserRepository>();
+            services.AddScoped<IBaseRepository<Profile>, ProfileRepository>();
         }
 
         public static void InitializeServices(this IServiceCollection services)
         {
             services.AddScoped<AccountService>();
+            services.AddScoped<SettingsService>();
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IGS.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86d8c6a524389fb63da2673f37089f13001ec3ef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c217dba0e5e7bc2789cbaa27b3be7ad57992c1d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("IGS.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IGS.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

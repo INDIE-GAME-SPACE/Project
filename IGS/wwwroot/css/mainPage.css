@@ -1,5 +1,5 @@
 ﻿.headerStyle {
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +16,17 @@ header {
     background-color:black;
 }
 
+.logo{
+    margin-right: 10px; 
+    margin-left: -28px;
+    margin-bottom: 5px;
+}
 
+.logo-text{
+    color:white;
+    font-family:Impact;
+    font-size:30px;
+}
 
 .center_text_head {
     color: RGB( 194, 255, 63);
@@ -58,12 +68,9 @@ figure {
     float: right;
 }
 
-
-
-
 html,
 body {
-    background-color: rgb(15, 13, 13);
+    background-color: rgb(32, 31, 31);
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -110,6 +117,14 @@ body {
     margin-bottom: 15px;
 }
 
+.search{
+    margin-left: -40px; 
+    margin-bottom: 5px;
+    
+    border: 3px;
+    border-radius: 30px; 
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -143,12 +158,12 @@ body {
     display: block;
 }
 
-.dropdown-content a:hover {
-    color: red;
+.link:hover {
+    color: rgb(153, 0, 255)
 }
 
-.dropdown-content a:hover {
-    color:red;
+.exit-button:hover {
+    color: red;
 }
 
 .dropdown:hover .dropdown-content {

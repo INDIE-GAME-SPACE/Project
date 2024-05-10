@@ -5,12 +5,28 @@
       "PackagePath": "staticwebassets\\IGS.bundle.scp.css"
     },
     {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\deletePage.css",
+      "PackagePath": "staticwebassets\\css\\deletePage.css"
+    },
+    {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\mainPage.css",
       "PackagePath": "staticwebassets\\css\\mainPage.css"
     },
     {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\profilePage.css",
+      "PackagePath": "staticwebassets\\css\\profilePage.css"
+    },
+    {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\registerPage.css",
       "PackagePath": "staticwebassets\\css\\registerPage.css"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\safetyPage.css",
+      "PackagePath": "staticwebassets\\css\\safetyPage.css"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\settingsPage.css",
+      "PackagePath": "staticwebassets\\css\\settingsPage.css"
     },
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\css\\site.css",
@@ -23,6 +39,10 @@
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\find.icon.ico",
       "PackagePath": "staticwebassets\\img\\find.icon.ico"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\gitLogo.png",
+      "PackagePath": "staticwebassets\\img\\gitLogo.png"
     },
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\igra1.png",
@@ -89,12 +109,20 @@
       "PackagePath": "staticwebassets\\img\\tg2.png"
     },
     {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\user-icon.png",
+      "PackagePath": "staticwebassets\\img\\user-icon.png"
+    },
+    {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\vk.png",
       "PackagePath": "staticwebassets\\img\\vk.png"
     },
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\vk1.png",
       "PackagePath": "staticwebassets\\img\\vk1.png"
+    },
+    {
+      "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\wing.png",
+      "PackagePath": "staticwebassets\\img\\wing.png"
     },
     {
       "Id": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS\\wwwroot\\img\\фон.jpg",

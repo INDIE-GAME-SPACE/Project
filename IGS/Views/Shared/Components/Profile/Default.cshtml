@@ -1,0 +1,73 @@
+@model IGS.Domain.ViewModels.Profile.ProfileViewModel
+<link rel="stylesheet" href="~/css/profilePage.css" asp-append-version="true"/>
+
+<div class = "profileBlock">
+    <div class = "image-block">
+       <img class = "user-icon" src="~/img/user-icon.png" width="90px" height = "90px"/>
+       <button class = "update-button"><span class = "button-text">Обновить</span></button>
+       <div class = "wing">
+            <img src="~/img/wing.png" width="25px" height = "25px"/>
+            <span class = "button-text">Удалить</span>
+       </div>
+    </div>
+    <div>
+        <form>
+            <div>
+                <span class = "attribute-header" >Отображаемое имя</span>
+                <input asp-for="Name" class ="attribute" placeholder=@User.Identity.Name type="text"></input>
+            </div>
+            <div class = "user-checkbox-block">
+                <span class = "attribute-header">Как вы будете использовать вашу учётную запись</span>
+                <div class = "user-checkbox">
+                    @if(Model.IUser){
+                        <input type="checkbox" asp-for="IUser" checked />   
+                    } else{
+                        <input type="checkbox" asp-for="IUser" />   
+                    }
+                    <span  class = "user-checkbox-text"> Мне интересно играть или скачивать игры </span>
+                </div>
+               <div class = "user-checkbox">
+                     @if(Model.ICreator){
+                        <input type="checkbox" asp-for="ICreator" checked />   
+                    }else {
+                        <input type="checkbox" asp-for="ICreator" />   
+                    }
+                     <span class = "user-checkbox-text"> Я заинтересован в распространении контента </span>
+                </div>
+            </div>
+            <div>
+                <span class = "attribute-header">Профиль — Текст на странице профиля</span>
+                <input asp-for="Description" class = "attribute" style = "height:150px;" type="text" placeholder=@Model.Description></input>
+            </div>
+            <div>
+                <div class = "country">
+                    <span class = "attribute-header" style ="margin-right:30px;">Страна</span>
+                    <form>
+                      <select id="country" name="country" onchange="handleCountryChange()">
+                        <option value="Россия">Россия</option>
+                        <option value="Казахстан">Казахстан</option>
+                        <option value="Беларусь">Беларусь</option>
+                        <option value="Европа">Европа</option>
+                        <option value="США">США</option>
+                      </select>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <div class = "image-attribute">
+                    <img class = "image" src="~/img/tg2.png" width="35px" height = "35px"/>
+                    <input asp-for="URL" class = "attribute" style = "margin-left: 5%; width: 300px;"></input>
+                </div>
+            </div>
+            <div>
+                <div class = "image-attribute">
+                    <img src="~/img/gitLogo.png" width="55px" height = "50px"/>
+                    <input asp-for="GitHubLink" class = "attribute" style = "margin-left: 5%; width: 300px;"></input>
+                </div>
+            </div>
+            <div class = "save-content">
+                <button class="save-button" type="submit">Сохранить</button>
+            </div>
+        </form>
+    </div>
+</div>

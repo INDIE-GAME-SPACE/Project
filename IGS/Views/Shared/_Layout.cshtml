@@ -14,10 +14,10 @@
 	<div class = "wrapper">
 		<header class = "header">
 			<nav class ="headerStyle"> 
-				<a asp-controller="Home" asp-action="Index"><img style="margin-right: 10px; margin-left: -28px; margin-bottom: 12px;" src="~/img/logo2.png" width="40px" height = 40px"/><span style="color:white; font-family:Impact; font-size:30px;">IGS</span></a>
+				<a asp-controller="Home" asp-action="Index"><img class = "logo" src="~/img/logo2.png" width="40px" height = 40px"/><span class="logo-text">IGS</span></a>
 				<form>
 				 <div>
-					<input type="text" value="Search"> <img style="margin-left: -40px; margin-bottom: 5px;" src="~/img/find.icon.ico" width="25px" height = "25px"/><br>
+					<input type="text" value="Search"> <img class = "search" src="~/img/find.icon.ico" width="25px" height = "25px"/><br>
 				 </div>
 				</form>
 					@if (!User.Identity.IsAuthenticated)
@@ -29,8 +29,9 @@
 						<div class="dropdown">
 							<button class="dropbtn">@User.Identity.Name</button>
 								<div class="dropdown-content">
-									<a>Профиль</a>
-									<a asp-controller="Account" asp-action="Logout">Выход</a>
+									<a class = "link" asp-controller="Settings" asp-action="Settings">Профиль</a>
+									<a href="@Url.Action("Settings", "Settings", new { componentId = 0})" class = "link">Настройки</a>
+									<a class = "exit-button" asp-controller="Account" asp-action="Logout">Выход</a>
 								</div>
 						</div>
 					}
@@ -54,8 +55,6 @@
 			<nav>
 			<a asp-controller="Account" asp-action="Login"><p class = "footer_link" > Главная  </p></a>
 			<a asp-controller="Account" asp-action="Login"><p class = "footer_link">  О нас <br /></p></a>
-			<a asp-controller="Account" asp-action="Login"><p class = "footer_link" > Команда <br /></p></a>
-			<a asp-controller="Account" asp-action="Login"><p class = "footer_link" > Разработчикам <br /></p></a>
 			<a asp-controller="Account" asp-action="Login"><p class = "footer_link"> Справка <br /></p></a>
 			</nav>
 		
