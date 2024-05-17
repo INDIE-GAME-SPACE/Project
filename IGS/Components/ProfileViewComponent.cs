@@ -2,7 +2,7 @@ using IGS.Domain.Response;
 using Microsoft.AspNetCore.Mvc;
 using IGS.Service.Implementations;
 using IGS.Domain.ViewModels.Profile;
-using IGS.Domain.Entity;
+using System.Security.Claims;
 
 namespace IGS.Components
 {

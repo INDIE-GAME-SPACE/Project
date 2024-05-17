@@ -24,7 +24,7 @@ namespace IGS.DAL.Repositories
 			return true;
 		}
 
-		public async Task<User> Get(int id) => await _dbContext.User.FirstOrDefaultAsync(user => user.Id == id);
+		public async Task<User> GetById(int id) => await _dbContext.User.FirstOrDefaultAsync(user => user.Id == id);
 
 		public async Task<User> GetByEmail(string email) => await _dbContext.User.FirstOrDefaultAsync(user => user.Email == email);
 

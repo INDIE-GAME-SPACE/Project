@@ -73,10 +73,8 @@ namespace IGS.Service.Implementations
 				Role role = default;
 				if (model.IUser && model.ICreator)
 					role = Role.All;
-				if (model.IUser)
-					role = Role.Gamer;
-				if (model.ICreator)
-					role = Role.Creator;
+				else
+					role = model.IUser ? Role.Gamer : Role.Creator;
 
 				user = new User()
 				{
@@ -86,14 +84,15 @@ namespace IGS.Service.Implementations
 					AuthenticationPassed = 0,
 					Role = role.ToString(),
 				};
+				await _userRepository.Create(user);
+				user = await _userRepository.GetByLogin(model.Login);
 
 				Profile profile = new Profile()
 				{
+					Id = user.Id,
 					Name = model.Login,
-					Description = "Description",
 				};
 
-				await _userRepository.Create(user);
 				await _profileRepository.Create(profile);
 
 				ClaimsIdentity result = Authenticate(user);
@@ -163,10 +162,10 @@ namespace IGS.Service.Implementations
 		private ClaimsIdentity Authenticate(User user)
 		{
 			var claims = new List<Claim> {
-			new Claim(ClaimsIdentity.DefaultNameClaimType, user.Login),
-			new Claim(ClaimsIdentity.DefaultRoleClaimType, user.Role),
+				new Claim(ClaimsIdentity.DefaultNameClaimType, user.Login),
+				new Claim(ClaimsIdentity.DefaultRoleClaimType, user.Role),
 			};
-			return new ClaimsIdentity(claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
+			return new ClaimsIdentity((System.Security.Principal.IIdentity?)Thread.CurrentPrincipal, claims, "ApplicationCookie", ClaimsIdentity.DefaultNameClaimType, ClaimsIdentity.DefaultRoleClaimType);
 		}
 
 		public async Task<BaseResponse<User>> GetUser(int id)
@@ -174,7 +173,7 @@ namespace IGS.Service.Implementations
 			BaseResponse<User> response = new BaseResponse<User>();
 			try
 			{
-				User user = await _userRepository.Get(id);
+				User user = await _userRepository.GetById(id);
 
 				if (user == null)
 				{

@@ -11,6 +11,7 @@ namespace IGS
         {
             services.AddScoped<IBaseRepository<User>, UserRepository>();
             services.AddScoped<IBaseRepository<Profile>, ProfileRepository>();
+            services.AddScoped<IBaseRepository<Game>, GameRepository>();
         }
 
         public static void InitializeServices(this IServiceCollection services)

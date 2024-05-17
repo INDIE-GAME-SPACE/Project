@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="~/css/settingsPage.css" asp-append-version="true"/> 
-<link rel="stylesheet" href="~/css/profilePage.css" asp-append-version="true"/> 
+<link rel="stylesheet" href="~/css/profileComponent.css" asp-append-version="true"/> 
 
 @model IGS.Domain.ViewModels.Settings.SettingsViewModel
 @{ 
@@ -18,7 +18,7 @@
       deleteButton = "button-select";
 }  
 
-<div class = "menu">
+<div class = "settings-menu">
    <a href="@Url.Action("Settings", "Settings", new { componentId = 0})" class = "@profileButton">
    <span class = "button-text">Профиль</span>
    </a>

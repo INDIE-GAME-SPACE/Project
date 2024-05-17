@@ -1,7 +1,10 @@
-.menu{
+.settings-menu {
     display: flex;
+    width: 800px;
+    justify-content: space-between;
     margin-top: 30px;
-    margin-left: 24%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button{    

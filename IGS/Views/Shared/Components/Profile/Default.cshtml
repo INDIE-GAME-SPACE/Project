@@ -1,17 +1,21 @@
 @model IGS.Domain.ViewModels.Profile.ProfileViewModel
 <link rel="stylesheet" href="~/css/profilePage.css" asp-append-version="true"/>
 
+
 <div class = "profileBlock">
+    <form autocomplete="on" method="post" asp-controller="Settings" asp-action="SaveProfile" enctype="multipart/form-data">
     <div class = "image-block">
-       <img class = "user-icon" src="~/img/user-icon.png" width="90px" height = "90px"/>
-       <button class = "update-button"><span class = "button-text">Обновить</span></button>
-       <div class = "wing">
-            <img src="~/img/wing.png" width="25px" height = "25px"/>
-            <span class = "button-text">Удалить</span>
-       </div>
-    </div>
-    <div>
-        <form>
+    
+         @if(Model.ImageName != null){
+            <img class = "user-icon" src="@("~/image/" + Model.ImageName)" asp-append-version="true"/>         
+         }
+         else{
+            <img class = "user-icon" src="~/img/user-icon.png"/>      
+         }
+        
+        <input asp-for = "ImageFile" class = "input-image" accept="image/*"></input>      
+        </div>
+        <div>
             <div>
                 <span class = "attribute-header" >Отображаемое имя</span>
                 <input asp-for="Name" class ="attribute" placeholder=@User.Identity.Name type="text"></input>
@@ -21,7 +25,7 @@
                 <div class = "user-checkbox">
                     @if(Model.IUser){
                         <input type="checkbox" asp-for="IUser" checked />   
-                    } else{
+                    }else{
                         <input type="checkbox" asp-for="IUser" />   
                     }
                     <span  class = "user-checkbox-text"> Мне интересно играть или скачивать игры </span>
@@ -37,27 +41,11 @@
             </div>
             <div>
                 <span class = "attribute-header">Профиль — Текст на странице профиля</span>
-                <input asp-for="Description" class = "attribute" style = "height:150px;" type="text" placeholder=@Model.Description></input>
+                <textarea asp-for="Description" class="attribute" style="height:150px;" type="text" placeholder=@Model.Description></textarea>
             </div>
             <div>
-                <div class = "country">
-                    <span class = "attribute-header" style ="margin-right:30px;">Страна</span>
-                    <form>
-                      <select id="country" name="country" onchange="handleCountryChange()">
-                        <option value="Россия">Россия</option>
-                        <option value="Казахстан">Казахстан</option>
-                        <option value="Беларусь">Беларусь</option>
-                        <option value="Европа">Европа</option>
-                        <option value="США">США</option>
-                      </select>
-                    </form>
-                </div>
-            </div>
-            <div>
-                <div class = "image-attribute">
-                    <img class = "image" src="~/img/tg2.png" width="35px" height = "35px"/>
-                    <input asp-for="URL" class = "attribute" style = "margin-left: 5%; width: 300px;"></input>
-                </div>
+                <span class="attribute-header">Сайт — URL, показываемый на странице профиля</span>
+                <input asp-for="URL" class="attribute"></input>
             </div>
             <div>
                 <div class = "image-attribute">
@@ -66,8 +54,8 @@
                 </div>
             </div>
             <div class = "save-content">
-                <button class="save-button" type="submit">Сохранить</button>
+               <button class = "save-button" type="submit"><span class = "save-button-text">Сохранить</span></button>
             </div>
-        </form>
     </div>
+    </form>
 </div>

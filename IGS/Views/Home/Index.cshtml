@@ -1,10 +1,6 @@
-﻿<link rel="stylesheet" href="~/css/mainPage.css" asp-append-version="true" /> 
+﻿@model IEnumerable<IGS.Domain.Entity.Game>
 
-@model IGS.Domain.Entity.User
-@{
-    Layout = "_Layout";
-    ViewData["Title"] = "Главная";
-}
+<link rel="stylesheet" href="~/css/mainPage.css" asp-append-version="true" /> 
 
 <head>
   <meta charset="utf-8">
@@ -13,59 +9,75 @@
    html { overflow-x: hidden; }
   </style>
 </head>
-  
-<div>
-	<p class = "center_text_head" > Рекомендовавнное  </p>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra1.png"></a>
-		<figcaption class = "center_text" > Gauntlet of Power - Teaser Demo <span class="center_text_cost"> 500р. </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra2.png"></a>
-		<figcaption class = "center_text">Cursorblade (Demo) <span class="center_text_cost">   FREE </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra3.png"></a>
-		<figcaption class = "center_text"> Project Homecoming Haven <span class="center_text_cost">   600р. </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra5.png"></a>
-		<figcaption class = "center_text">Death of a Wish <span class="center_text_cost">   200р.</figcaption>
-	</figure>
-	
-	<p class = "center_text_head" > Популярное  </p>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra6.png"></a>
-		<figcaption class = "center_text" > Tristram <span class="center_text_cost"> 500р. </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra7.png"></a>
-		<figcaption class = "center_text">Detective Face <span class="center_text_cost">   FREE </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra8.png"></a>
-		<figcaption class = "center_text"> Peryne <span class="center_text_cost">   600р. </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra9.png"></a>
-		<figcaption class = "center_text">Sokobond Express <span class="center_text_cost">   200р.</figcaption>
-	</figure>
-	
-	<p class = "center_text_head" > Новинки  </p>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra10.png"></a>
-		<figcaption class = "center_text" >Beecarbonize <span class="center_text_cost"> 500р. </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra11.png"></a>
-		<figcaption class = "center_text">24 Killers <span class="center_text_cost">   FREE </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra12.png"></a>
-		<figcaption class = "center_text"> Kingsvein <span class="center_text_cost">   600р. </figcaption>
-	</figure>
-	<figure>
-		<p><a asp-controller="Account" asp-action="Login"><img class= scenter_image src="~/img/igra13.png"></a>
-		<figcaption class = "center_text">Maerl <span class="center_text_cost">   200р.</figcaption>
-	</figure>
+
+<div class = "content">
+    <div class="menu">
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu_head" > Категории</p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Хорор </p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Многопользовательские <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Симулятор <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Аркады <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Гонки <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Ролевые <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Приключения <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Спортивные игры <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Стратегии <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu_head" > Игры по цене <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Бесплатные игры <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Меньше 500р. <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Больше 500р. <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > Лучшеие продавцы <br /></p></a>
+        <a asp-controller="Account" asp-action="Login"><p class = "text_menu" > С демо-версией <br /></p></a>
+    </div>
+    <div class = "games">
+        <div class="adds-back">
+            <div class="adds-block">
+                <a class="arrow-button"><img class="arrow-image" src="~/img/arrow.png" /></a>
+                <div class="adds-blocl-back">
+                    <div class="adds">
+                        <div class="image_reklama">
+                            <img src="~/img/igra6.png" alt="Image 1">
+                        </div>
+                         <div class="image_reklama2">
+                            <img src="~/img/rek1.jpg" alt="Image 1">
+                        </div>
+                         <div class="image_reklama2">
+                            <img src="~/img/rek2.jpg" alt="Image 1">
+                        </div>
+                         <div class="image_reklama2">
+                            <img src="~/img/rek3.jpg" alt="Image 1">
+                        </div>
+                        <div class = "recommend_reklama">
+                            <p> 
+                                <span class="game-name">Tristram</span>              
+                                <div style=" display:inline;">
+                                    <span class="game-description">
+                                        Embark on a pixelated journey reminiscent of Diablo 1 in this thrilling 2D adventure!
+                                    </span>
+                                    <span class="recommend_reklama_cost">  FREE </span>
+                                </div>
+                                </p>
+                        </div>         
+                    </div>
+                </div>
+                <a class="arrow-button"><img class="arrow-image" src="~/img/right-arrow.png" /></a>
+            </div>
+        </div>
+        <div class = "recommend">
+            <p> Рекомендации </p>
+        </div>
+        @foreach (var game in Model)
+        {
+            <div class="image">
+                <img src="@("~/Games/" + game.ImageName)" asp-append-version="true" alt="Image 1">
+                @if(@game.Price == 0)
+                {
+                    <p>@game.Name<span class="center_text_cost">FREE</p>
+                }
+                else
+                {
+                    <p>@game.Name<span class="center_text_cost">@game.Price Р</p>
+                }          
+            </div>
+        }
 </div>

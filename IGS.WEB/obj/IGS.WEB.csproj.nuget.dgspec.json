@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {}
+    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {}
   },
   "projects": {
-    "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
+    "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
+        "projectUniqueName": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
         "projectName": "IGS.WEB",
-        "projectPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
+        "projectPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\IGS.WEB.csproj",
         "packagesPath": "C:\\Users\\Андрей\\.nuget\\packages\\",
-        "outputPath": "d:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\obj\\",
+        "outputPath": "D:\\Проекты C#\\Indie Game Space\\Project\\IGS.WEB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Андрей\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -68,15 +68,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
+              "version": "[6.0.30, 6.0.30]"
             }
           ],
           "frameworkReferences": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
         }
       }
     }

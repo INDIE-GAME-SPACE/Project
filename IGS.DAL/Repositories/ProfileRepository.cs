@@ -24,6 +24,8 @@ namespace IGS.DAL.Repositories
             return true;
         }
 
+        public async Task<Profile> GetById(int id) => await _dbContext.Profiles.FirstOrDefaultAsync(profile => profile.Id == id);
+
         public async Task<Profile> GetByName(string name) => await _dbContext.Profiles.FirstOrDefaultAsync(profile => profile.Name == name);
 
         public async Task<bool> SaveProfile(Profile profile)

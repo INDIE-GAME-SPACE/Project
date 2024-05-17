@@ -1,8 +1,14 @@
+using Microsoft.AspNetCore.Http;
+
 namespace IGS.Domain.ViewModels.Profile
 {
     public class ProfileViewModel
     {
         public string Name { get; set; }
+
+        public string? ImageName { get; set; }
+
+        public IFormFile? ImageFile { get; set; }
 
         public bool ICreator { get; set; }
 
